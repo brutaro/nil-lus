@@ -64,7 +64,7 @@ export default function Navbar({ lang, setLang, t }: NavbarProps) {
             className="group flex items-center focus:outline-none"
           >
             <img 
-              src="/assets/logo-nil-lus.png" 
+              src="./assets/logo-nil-lus.png" 
               alt="Nil Lus Logo" 
               className="h-10 md:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105" 
             />

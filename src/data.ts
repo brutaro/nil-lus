@@ -54,7 +54,7 @@ export const data = {
       subheading: "Nascido em Belo Horizonte e radicado na Europa desde os anos 90, Nil Lus é um verdadeiro embaixador da musicalidade brasileira e da sensibilidade poética pelo mundo.",
       ctaListen: "Ouça Nil Lus",
       ctaBooking: "Booking & Contato",
-      image: "/assets/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_f5e253caa775.jpg"
+      image: "./assets/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_f5e253caa775.jpg"
     },
     stats: [
       { value: "17", label: "Discos Gravados", desc: "Entre a Europa e o Brasil" },
@@ -68,22 +68,22 @@ export const data = {
       text2: "Licenciado em Educação Física pela UFMG e em Administração e Economia pela FUMEC, Nil dividiu sua juventude entre o esporte profissional e o violão. Ex-atleta da Seleção Brasileira de Handball (onde ficou conhecido como 'Canhão' pela força devastadora de seus arremessos), ele trocou as quadras pelos palcos internacionais na década de 90.",
       text3: "Viajou em concertos por mais de 45 países na América, Europa e Ásia. Em Portugal, fundou o prestigiado projeto de Lusofonia 'Sons da Fala', ao lado de lendas como Sérgio Godinho, Vitorino, e Tito Paris. Elogiado por Toninho Horta como 'um brilhante poeta que toca' e apontado por críticos internacionais como 'The Sting of Brazil', ele segue gravando e escrevendo incansavelmente.",
       photoCredit: "Foto por Martin Bülow",
-      image: "/assets/547a9c9d-1bec-4dcf-8c79-e08ede4e1874_848aec744980.jpg"
+      image: "./assets/547a9c9d-1bec-4dcf-8c79-e08ede4e1874_848aec744980.jpg"
     },
     discography: {
       heading: "Discografia Selecionada",
       subheading: "Uma fusão requintada de world music, ritmos caribenhos, new rock e pop brasileiro autoral.",
       albums: [
-        { title: "Todos os Tons", year: "2018", image: "/assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_4ea3ea5434bd.jpg", description: "Álbum indicado ao Grammy Latino. Produzido por Victor Flowers e Celso Rangel." },
-        { title: "Como Caído del Cielo", year: "2020", image: "/assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_8ec1cb9d16d6.jpg", description: "O 15º álbum de carreira. Canções em português e espanhol, com ritmos quentes e românticos." },
-        { title: "Alma Feminina", year: "2017", image: "/assets/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee_mv2_6d67061c05a9.jpg", description: "Visões líricas, políticas e místicas do universo feminino, inspirando show emblemático." },
-        { title: "Amores Líquidos", year: "2021", image: "/assets/e8911b_0d821d902d9f4d0fb13345003d470a8e_mv2_91505bfd5694.jpg", description: "O 18º álbum, explorando a transição das relações contemporâneas." },
-        { title: "Sons da Fala", year: "Portugal", image: "/assets/e8911b_496ae06f9f6c48a996bd5caa42581d03_mv2_e1e45dec5b2e.jpg", description: "Projeto de Lusofonia gravado com grandes nomes de Portugal e Cabo Verde." },
-        { title: "Ao Vivo em Montreux", year: "2004", image: "/assets/e8911b_8b81bee178fb4bb99c95b407d2eecc98_mv2_2c18681cb872.jpg", description: "Gravado ao vivo para uma audiência de 8.000 pessoas no Montreux Jazz Festival." },
-        { title: "Amal Hamburg", year: "Cinema Score", image: "/assets/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d_mv2_3511759aa564.jpg", description: "Trilha sonora original para o longa-metragem alemão de Hanni Bergesch Wolf." },
-        { title: "Pássaro de Fogo", year: "Clássicos", image: "/assets/e8911b_e85bc2aaf5184320aff1fd2b1238b313_mv2_484e3469ab7f.jpg", description: "Compilação de canções marcadas pela poesia profunda e arranjos atemporais." },
-        { title: "Solo & Poesia", year: "Acústico", image: "/assets/e8911b_ed8ac4860260415986a18b1499ec310f_mv2_0ae920b82f4e.jpg", description: "Sessões acústicas e poemas declamados ao som de violões clássicos." },
-        { title: "World Pop", year: "London Sessions", image: "/assets/e8911b_f1a9ba58207140af952f46cd58756a58_mv2_76f84bce6759.jpg", description: "Gravações que misturam influências britânicas e swing latino." }
+        { title: "Todos os Tons", year: "2018", image: "./assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_4ea3ea5434bd.jpg", description: "Álbum indicado ao Grammy Latino. Produzido por Victor Flowers e Celso Rangel." },
+        { title: "Como Caído del Cielo", year: "2020", image: "./assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_8ec1cb9d16d6.jpg", description: "O 15º álbum de carreira. Canções em português e espanhol, com ritmos quentes e românticos." },
+        { title: "Alma Feminina", year: "2017", image: "./assets/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee_mv2_6d67061c05a9.jpg", description: "Visões líricas, políticas e místicas do universo feminino, inspirando show emblemático." },
+        { title: "Amores Líquidos", year: "2021", image: "./assets/e8911b_0d821d902d9f4d0fb13345003d470a8e_mv2_91505bfd5694.jpg", description: "O 18º álbum, explorando a transição das relações contemporâneas." },
+        { title: "Sons da Fala", year: "Portugal", image: "./assets/e8911b_496ae06f9f6c48a996bd5caa42581d03_mv2_e1e45dec5b2e.jpg", description: "Projeto de Lusofonia gravado com grandes nomes de Portugal e Cabo Verde." },
+        { title: "Ao Vivo em Montreux", year: "2004", image: "./assets/e8911b_8b81bee178fb4bb99c95b407d2eecc98_mv2_2c18681cb872.jpg", description: "Gravado ao vivo para uma audiência de 8.000 pessoas no Montreux Jazz Festival." },
+        { title: "Amal Hamburg", year: "Cinema Score", image: "./assets/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d_mv2_3511759aa564.jpg", description: "Trilha sonora original para o longa-metragem alemão de Hanni Bergesch Wolf." },
+        { title: "Pássaro de Fogo", year: "Clássicos", image: "./assets/e8911b_e85bc2aaf5184320aff1fd2b1238b313_mv2_484e3469ab7f.jpg", description: "Compilação de canções marcadas pela poesia profunda e arranjos atemporais." },
+        { title: "Solo & Poesia", year: "Acústico", image: "./assets/e8911b_ed8ac4860260415986a18b1499ec310f_mv2_0ae920b82f4e.jpg", description: "Sessões acústicas e poemas declamados ao som de violões clássicos." },
+        { title: "World Pop", year: "London Sessions", image: "./assets/e8911b_f1a9ba58207140af952f46cd58756a58_mv2_76f84bce6759.jpg", description: "Gravações que misturam influências britânicas e swing latino." }
       ]
     },
     media: {
@@ -108,55 +108,55 @@ export const data = {
           year: "2021",
           title: "Best Music Video Award",
           description: "Vencedor em Londres com o videoclipe 'A Coroa Sem Rei' no London Art House Film Festival (LAHFF), Inglaterra.",
-          image: "/assets/1__PREMIO_LONDRES_fff36f2091b2.jpg"
+          image: "./assets/1__PREMIO_LONDRES_fff36f2091b2.jpg"
         },
         {
           year: "2020",
           title: "Nomeado - Best of Brazil European Awards",
           description: "Indicado no Parlamento de Londres como um dos maiores expoentes da World Music na Diáspora Brasileira na Europa.",
-          image: "/assets/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_838728752264.jpg"
+          image: "./assets/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_838728752264.jpg"
         },
         {
           year: "2019",
           title: "Prêmio de Música Mundial (LAHFF)",
           description: "Laureado no espaço nobre da BBC em Londres pelo festival London Art House Film Festival (LAHFF).",
-          image: "/assets/3__PREMIO_LONDRES_4__504552094faa.jpg"
+          image: "./assets/3__PREMIO_LONDRES_4__504552094faa.jpg"
         },
         {
           year: "2018",
           title: "Indicação ao Grammy Latino",
           description: "Indicado com o aclamado álbum 'Todos os Tons', produzido com colaboração de Victor Flowers (ex-produtor de Alicia Keys) e Celso Rangel.",
-          image: "/assets/5__PREMIO_INDICA_O_GRAMMY_LATINO_1f8629598c1c.jpg"
+          image: "./assets/5__PREMIO_INDICA_O_GRAMMY_LATINO_1f8629598c1c.jpg"
         },
         {
           year: "2017",
           title: "Prêmio de Poesia José Maria Heredia",
           description: "Outorgado pela Prefeitura de Toluca (México) durante Festival Internacional de Literatura e Música.",
-          image: "/assets/Sem_t_tulo-1_837175501dd9.jpg"
+          image: "./assets/Sem_t_tulo-1_837175501dd9.jpg"
         },
         {
           year: "2016",
           title: "50 Anos do Montreux Jazz Festival",
           description: "Convidado de honra de Quincy Jones para se apresentar e representar o Brasil no icônico festival suíço.",
-          image: "/assets/6d0141e29f1c40dfffff800affffffef_1__6748fb12454a.jpg"
+          image: "./assets/6d0141e29f1c40dfffff800affffffef_1__6748fb12454a.jpg"
         },
         {
           year: "2010",
           title: "Laurea Le Mérite et Dévouement Français",
           description: "Láurea de Prata do Senado Francês por contribuição excepcional à arte, música e literatura mundiais.",
-          image: "/assets/LE_M_rite_et_D_vouementFRAN_AIS_d4dbea0472b1.jpg"
+          image: "./assets/LE_M_rite_et_D_vouementFRAN_AIS_d4dbea0472b1.jpg"
         },
         {
           year: "2008",
           title: "Nomeação de Cônsul de Poetas del Mundo",
           description: "Cônsul da prestigiada sociedade mundial de poetas no Chile. Fundador do Instituto Nil Lus, que apoia 350 crianças sob o lema 'Ninguém Separa o Sonho do Sonhador'.",
-          image: "/assets/e8911b_fb3f6999a788440ab4eca552d8489563f003_bf57309ad4d6.jpg"
+          image: "./assets/e8911b_fb3f6999a788440ab4eca552d8489563f003_bf57309ad4d6.jpg"
         },
         {
           year: "2007",
           title: "Médaille d`Argent - Paris",
           description: "Medalha de Prata da Academia Francesa de Ciências, Letras e Cultura, honraria recebida por lendas como Marie Curie, Milton Nascimento e Alcione.",
-          image: "/assets/DIPL_ME_DE_M_DAILLE_d_ARGENT_9f45ea6a54b3.jpg"
+          image: "./assets/DIPL_ME_DE_M_DAILLE_d_ARGENT_9f45ea6a54b3.jpg"
         }
       ]
     },
@@ -232,14 +232,14 @@ export const data = {
       heading: "Galeria de Arte & Memória",
       subheading: "Texturas analógicas e momentos marcantes capturados ao redor do globo.",
       images: [
-        { url: "/assets/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_45955f4cd802.jpg", title: "Show Solo" },
-        { url: "/assets/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_70b70fcaa3ad.jpg", title: "Estúdio de Gravação" },
-        { url: "/assets/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_e5495f9fbdb3.jpg", title: "Encontro Musical" },
-        { url: "/assets/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_09616b55dfb5.jpg", title: "Performance Ao Vivo" },
-        { url: "/assets/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b8fa58025849.jpg", title: "Retrato Clássico" },
-        { url: "/assets/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_24716f07c3a5.jpg", title: "Composição Intimista" },
-        { url: "/assets/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_deed65998d29.jpg", title: "Sons do Coração" },
-        { url: "/assets/e8911b_69769915169c4b629890fd09773a4ba9_mv2_1789c1501cbf.jpg", title: "Sons da Fala Portugal" }
+        { url: "./assets/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_45955f4cd802.jpg", title: "Show Solo" },
+        { url: "./assets/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_70b70fcaa3ad.jpg", title: "Estúdio de Gravação" },
+        { url: "./assets/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_e5495f9fbdb3.jpg", title: "Encontro Musical" },
+        { url: "./assets/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_09616b55dfb5.jpg", title: "Performance Ao Vivo" },
+        { url: "./assets/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b8fa58025849.jpg", title: "Retrato Clássico" },
+        { url: "./assets/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_24716f07c3a5.jpg", title: "Composição Intimista" },
+        { url: "./assets/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_deed65998d29.jpg", title: "Sons do Coração" },
+        { url: "./assets/e8911b_69769915169c4b629890fd09773a4ba9_mv2_1789c1501cbf.jpg", title: "Sons da Fala Portugal" }
       ]
     },
     news: {
@@ -342,7 +342,7 @@ export const data = {
       subheading: "Born in Belo Horizonte, Brazil, and based in Europe since the 1990s, Nil Lus is a true ambassador of Brazilian music and poetic sensitivity across the globe.",
       ctaListen: "Listen to Nil Lus",
       ctaBooking: "Booking & Contact",
-      image: "/assets/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_f5e253caa775.jpg"
+      image: "./assets/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_f5e253caa775.jpg"
     },
     stats: [
       { value: "17", label: "Albums Recorded", desc: "Between Europe and Brazil" },
@@ -356,22 +356,22 @@ export const data = {
       text2: "Graduated in Physical Education from UFMG and in Business Administration and Economics from FUMEC, Nil shared his youth between professional sports and the acoustic guitar. An elite athlete of the Brazilian National Handball Team (where he was nicknamed the 'Handball Cannon' due to his powerful shots), he left the sports court to conquer international stages in the early 90s.",
       text3: "He toured in concert through more than 45 countries in America, Europe, and Asia. In Portugal, he founded the prestigious Lusofonia project 'Sons da Fala', alongside legends like Sérgio Godinho, Vitorino, and Tito Paris. Praised by Toninho Horta as 'a brilliant poet who plays' and labeled by international critics as 'The Sting of Brazil', he continues recording and writing tirelessly.",
       photoCredit: "Photo by Martin Bülow",
-      image: "/assets/547a9c9d-1bec-4dcf-8c79-e08ede4e1874_848aec744980.jpg"
+      image: "./assets/547a9c9d-1bec-4dcf-8c79-e08ede4e1874_848aec744980.jpg"
     },
     discography: {
       heading: "Selected Discography",
       subheading: "An exquisite fusion of world music, Caribbean beats, London alternative rock, and original Brazilian pop.",
       albums: [
-        { title: "Todos os Tons", year: "2018", image: "/assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_4ea3ea5434bd.jpg", description: "Nominated for the Latin Grammy. Produced by Victor Flowers and Celso Rangel." },
-        { title: "Como Caído del Cielo", year: "2020", image: "/assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_8ec1cb9d16d6.jpg", description: "The 15th career album. Singing in both Portuguese and Spanish, full of romantic and warm rhythms." },
-        { title: "Alma Feminina", year: "2017", image: "/assets/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee_mv2_6d67061c05a9.jpg", description: "Lyrical, political, and mystical views of the female soul, inspiring an iconic touring show." },
-        { title: "Amores Líquidos", year: "2021", image: "/assets/e8911b_0d821d902d9f4d0fb13345003d470a8e_mv2_91505bfd5694.jpg", description: "His 18th album, exploring the liquid transitions of contemporary human relationships." },
-        { title: "Sons da Fala", year: "Portugal", image: "/assets/e8911b_496ae06f9f6c48a996bd5caa42581d03_mv2_e1e45dec5b2e.jpg", description: "Lusofonia collaborative project recorded with top artists from Portugal and Cape Verde." },
-        { title: "Live in Montreux", year: "2004", image: "/assets/e8911b_8b81bee178fb4bb99c95b407d2eecc98_mv2_2c18681cb872.jpg", description: "Recorded live in front of a passionate crowd of 8,000 at the Montreux Jazz Festival." },
-        { title: "Amal Hamburg", year: "Cinema Score", image: "/assets/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d_mv2_3511759aa564.jpg", description: "Original movie soundtrack for the award-winning German feature film by Hanni Bergesch Wolf." },
-        { title: "Pássaro de Fogo", year: "Classics", image: "/assets/e8911b_e85bc2aaf5184320aff1fd2b1238b313_mv2_484e3469ab7f.jpg", description: "A beautifully curated collection of acoustic ballads and profound poetry." },
-        { title: "Solo & Poesia", year: "Acoustic", image: "/assets/e8911b_ed8ac4860260415986a18b1499ec310f_mv2_0ae920b82f4e.jpg", description: "Intimate acoustic sessions where spoken word meets classical nylon guitars." },
-        { title: "World Pop", year: "London Sessions", image: "/assets/e8911b_f1a9ba58207140af952f46cd58756a58_mv2_76f84bce6759.jpg", description: "Vibrant recordings combining British modern beats and Brazilian tropical warmth." }
+        { title: "Todos os Tons", year: "2018", image: "./assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_4ea3ea5434bd.jpg", description: "Nominated for the Latin Grammy. Produced by Victor Flowers and Celso Rangel." },
+        { title: "Como Caído del Cielo", year: "2020", image: "./assets/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_8ec1cb9d16d6.jpg", description: "The 15th career album. Singing in both Portuguese and Spanish, full of romantic and warm rhythms." },
+        { title: "Alma Feminina", year: "2017", image: "./assets/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee_mv2_6d67061c05a9.jpg", description: "Lyrical, political, and mystical views of the female soul, inspiring an iconic touring show." },
+        { title: "Amores Líquidos", year: "2021", image: "./assets/e8911b_0d821d902d9f4d0fb13345003d470a8e_mv2_91505bfd5694.jpg", description: "His 18th album, exploring the liquid transitions of contemporary human relationships." },
+        { title: "Sons da Fala", year: "Portugal", image: "./assets/e8911b_496ae06f9f6c48a996bd5caa42581d03_mv2_e1e45dec5b2e.jpg", description: "Lusofonia collaborative project recorded with top artists from Portugal and Cape Verde." },
+        { title: "Live in Montreux", year: "2004", image: "./assets/e8911b_8b81bee178fb4bb99c95b407d2eecc98_mv2_2c18681cb872.jpg", description: "Recorded live in front of a passionate crowd of 8,000 at the Montreux Jazz Festival." },
+        { title: "Amal Hamburg", year: "Cinema Score", image: "./assets/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d_mv2_3511759aa564.jpg", description: "Original movie soundtrack for the award-winning German feature film by Hanni Bergesch Wolf." },
+        { title: "Pássaro de Fogo", year: "Classics", image: "./assets/e8911b_e85bc2aaf5184320aff1fd2b1238b313_mv2_484e3469ab7f.jpg", description: "A beautifully curated collection of acoustic ballads and profound poetry." },
+        { title: "Solo & Poesia", year: "Acoustic", image: "./assets/e8911b_ed8ac4860260415986a18b1499ec310f_mv2_0ae920b82f4e.jpg", description: "Intimate acoustic sessions where spoken word meets classical nylon guitars." },
+        { title: "World Pop", year: "London Sessions", image: "./assets/e8911b_f1a9ba58207140af952f46cd58756a58_mv2_76f84bce6759.jpg", description: "Vibrant recordings combining British modern beats and Brazilian tropical warmth." }
       ]
     },
     media: {
@@ -396,55 +396,55 @@ export const data = {
           year: "2021",
           title: "Best Music Video Award",
           description: "Winner in London for the official pandemic-themed video 'A Coroa Sem Rei' at the London Art House Film Festival (LAHFF).",
-          image: "/assets/1__PREMIO_LONDRES_fff36f2091b2.jpg"
+          image: "./assets/1__PREMIO_LONDRES_fff36f2091b2.jpg"
         },
         {
           year: "2020",
           title: "Nominee - Best of Brazil European Awards",
           description: "Nominated in the UK Parliament as one of the best World Music artists in the European Brazilian Diaspora.",
-          image: "/assets/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_838728752264.jpg"
+          image: "./assets/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_838728752264.jpg"
         },
         {
           year: "2019",
           title: "World Music Award (LAHFF)",
           description: "Laureated at the prestigious BBC London space as one of the most prolific Brazilian World Music exponents in Europe.",
-          image: "/assets/3__PREMIO_LONDRES_4__504552094faa.jpg"
+          image: "./assets/3__PREMIO_LONDRES_4__504552094faa.jpg"
         },
         {
           year: "2018",
           title: "Latin Grammy Nomination",
           description: "Nominated with the acclaimed album 'Todos os Tons', produced with Victor Flowers (former producer of Alicia Keys and Jay Z) and Celso Rangel.",
-          image: "/assets/5__PREMIO_INDICA_O_GRAMMY_LATINO_1f8629598c1c.jpg"
+          image: "./assets/5__PREMIO_INDICA_O_GRAMMY_LATINO_1f8629598c1c.jpg"
         },
         {
           year: "2017",
           title: "José Maria Heredia Poetry Prize",
           description: "Granted by the Toluca City Hall in Mexico during the International Festival of Literature and Music.",
-          image: "/assets/Sem_t_tulo-1_837175501dd9.jpg"
+          image: "./assets/Sem_t_tulo-1_837175501dd9.jpg"
         },
         {
           year: "2016",
           title: "50th Montreux Jazz Festival Anniversary",
           description: "Invited officially by honorary director Quincy Jones to perform and represent Brazil's cultural richness.",
-          image: "/assets/6d0141e29f1c40dfffff800affffffef_1__6748fb12454a.jpg"
+          image: "./assets/6d0141e29f1c40dfffff800affffffef_1__6748fb12454a.jpg"
         },
         {
           year: "2010",
           title: "Le Mérite et Dévouement Français",
           description: "Awarded by the French Senate for exceptional services and contribution as a global singer, composer, and writer.",
-          image: "/assets/LE_M_rite_et_D_vouementFRAN_AIS_d4dbea0472b1.jpg"
+          image: "./assets/LE_M_rite_et_D_vouementFRAN_AIS_d4dbea0472b1.jpg"
         },
         {
           year: "2008",
           title: "Consul of Poetas del Mundo",
           description: "Named Consul by the International Society of Poets (Chile). Founded the Nil Lus Institute, supporting 350 underrepresented kids under the motto: 'No one separates the dream from the dreamer'.",
-          image: "/assets/e8911b_fb3f6999a788440ab4eca552d8489563f003_bf57309ad4d6.jpg"
+          image: "./assets/e8911b_fb3f6999a788440ab4eca552d8489563f003_bf57309ad4d6.jpg"
         },
         {
           year: "2007",
           title: "Médaille d'Argent - Paris",
           description: "Silver Medal from the French Academy of Sciences, Letters, and Culture in Paris, an award shared with figures such as Marie Curie, Milton Nascimento, and Seu Jorge.",
-          image: "/assets/DIPL_ME_DE_M_DAILLE_d_ARGENT_9f45ea6a54b3.jpg"
+          image: "./assets/DIPL_ME_DE_M_DAILLE_d_ARGENT_9f45ea6a54b3.jpg"
         }
       ]
     },
@@ -520,14 +520,14 @@ export const data = {
       heading: "Art Gallery & Memory",
       subheading: "Analog textures and beautiful moments captured across the globe.",
       images: [
-        { url: "/assets/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_45955f4cd802.jpg", title: "Solo Show" },
-        { url: "/assets/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_70b70fcaa3ad.jpg", title: "Recording Studio" },
-        { url: "/assets/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_e5495f9fbdb3.jpg", title: "Musical Encounter" },
-        { url: "/assets/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_09616b55dfb5.jpg", title: "Live Performance" },
-        { url: "/assets/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b8fa58025849.jpg", title: "Classic Portrait" },
-        { url: "/assets/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_24716f07c3a5.jpg", title: "Intimate Composition" },
-        { url: "/assets/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_deed65998d29.jpg", title: "Heart Sounds" },
-        { url: "/assets/e8911b_69769915169c4b629890fd09773a4ba9_mv2_1789c1501cbf.jpg", title: "Lusofonia Portugal" }
+        { url: "./assets/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_45955f4cd802.jpg", title: "Solo Show" },
+        { url: "./assets/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_70b70fcaa3ad.jpg", title: "Recording Studio" },
+        { url: "./assets/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_e5495f9fbdb3.jpg", title: "Musical Encounter" },
+        { url: "./assets/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_09616b55dfb5.jpg", title: "Live Performance" },
+        { url: "./assets/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b8fa58025849.jpg", title: "Classic Portrait" },
+        { url: "./assets/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_24716f07c3a5.jpg", title: "Intimate Composition" },
+        { url: "./assets/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_deed65998d29.jpg", title: "Heart Sounds" },
+        { url: "./assets/e8911b_69769915169c4b629890fd09773a4ba9_mv2_1789c1501cbf.jpg", title: "Lusofonia Portugal" }
       ]
     },
     news: {
