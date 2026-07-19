@@ -1,0 +1,1241 @@
+{
+  "package": "entrega-nil-lus-antigravity_v2",
+  "source_site": "https://nillus2021.wixsite.com/website",
+  "source_counts": {
+    "pages": 12,
+    "links": 221,
+    "assets_copied": 203
+  },
+  "files": [
+    {
+      "path": "00_LEIA_PRIMEIRO/DESIGN_SYSTEM_E_DIRECAO_DE_REDESIGN.md",
+      "bytes": 8897,
+      "sha256": "f9a26bdca2c991b539b01d9772287ffd25774782871c3c52c40ce065933808f4"
+    },
+    {
+      "path": "00_LEIA_PRIMEIRO/DOSSIE_HANDOFF_GOOGLE_AI_STUDIO.md",
+      "bytes": 13860,
+      "sha256": "0f99e2afa84f506fe494ca63442463c822640e644895be5268157834d3f88538"
+    },
+    {
+      "path": "00_LEIA_PRIMEIRO/README_IMPORTACAO.md",
+      "bytes": 2676,
+      "sha256": "dba139e8a345f8291afaf4d9f10d8e5b273610e8cd36bf7e5d475f0799d89416"
+    },
+    {
+      "path": "00_LEIA_PRIMEIRO/conteudo-extraido-por-pagina.md",
+      "bytes": 30442,
+      "sha256": "b5a42e904ca902e70513181cf12aa1fa445dee626d164bf92de314372b02d69a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/assets.json",
+      "bytes": 332744,
+      "sha256": "9ac6bddd05522f8563a8b9aefa039538a2a5ca9406058d5109bfa9bc14c47f76"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/assets_enriched.json",
+      "bytes": 131092,
+      "sha256": "f00fb2c836440ab69d1835c1ab1adc58b60c65d88de1697d82ba68071530e42b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/00fea4c4-a828-4fe2-add1-0016601c21db_02dd4dffa023.jpg",
+      "bytes": 39483,
+      "sha256": "aad06f8984ea715db3424d66c98127af7b58318ebfa69b35ab752f06349285d1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/00fea4c4-a828-4fe2-add1-0016601c21db_a6fc9cf7a48e.jpg",
+      "bytes": 14844,
+      "sha256": "2fa474baf53ae3d973bfadbcd0434e29a4cf68cdca30522279987ef8050ef151"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/083ed4ba-5437-404c-bb37-efc1f61915cc_bd09d1257ae8.jpg",
+      "bytes": 17834,
+      "sha256": "55a7fa887472e3be000257612ca76d6bcdf0c20cd65bcc21646b3772dfbbac3e"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/083ed4ba-5437-404c-bb37-efc1f61915cc_d589d4ae2f78.jpg",
+      "bytes": 42755,
+      "sha256": "96beb270bddcd44a00f1f38e3d57b5f00dafffd41932c02fb545f4fd5387e033"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/086d979c-64ed-40f7-a150-19e5fe671769_27f0362d4505.jpg",
+      "bytes": 28390,
+      "sha256": "05d4d89bd726f9ffd5b548369a84d81534a5b41079c3371c96df3023d9228b1a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/086d979c-64ed-40f7-a150-19e5fe671769_2d8ae6422c71.jpg",
+      "bytes": 68162,
+      "sha256": "fe31d89dada4d9b3295dd97cde9bbbc977724afac0b472cda6ee3c99424ac468"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/0a06ece9-bf21-4060-9047-a8208abad408_7baddda55b47.jpg",
+      "bytes": 35586,
+      "sha256": "a7a3bd60e906708fc74686eea0205ee1e54beab77ad338971740ce039c6f0c3c"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/0a06ece9-bf21-4060-9047-a8208abad408_ea44740d9976.jpg",
+      "bytes": 11763,
+      "sha256": "cf23236f39433830efa51ecf3f894311cd5e864d9ddbe3a6ebc49460c4eefd16"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/0f309845-ad2b-4d8d-b6f4-095bae5c0127_24178e61820f.jpg",
+      "bytes": 26146,
+      "sha256": "dcf3213a38e2f9e77c746da575542a52e95b3f4eed1271b0b3b15c5873cd4f34"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/0f309845-ad2b-4d8d-b6f4-095bae5c0127_659702dea5eb.jpg",
+      "bytes": 13457,
+      "sha256": "954844ebf881ecd1f2f03fd0bafc5a22cf0da65bc076c650990f7b8902aae93a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/17365ed8-e348-42f4-b2a4-9d03152ede9d_0dce8e1f186b.jpg",
+      "bytes": 15674,
+      "sha256": "b3ca5f3e695aafbab0f662905c6894bcfb8d16c20505a8dafd4de0a1579f5da7"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/17365ed8-e348-42f4-b2a4-9d03152ede9d_bdfb27875f2a.jpg",
+      "bytes": 49388,
+      "sha256": "98f5a40af1a502f4afcf937c55fb0cd2854fe36bbbb3d0789c23de01e0fbe2c6"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/177fd6ce-65d5-4d6e-8943-853b8be77949_8cba07f20be4.jpg",
+      "bytes": 13111,
+      "sha256": "b2d26c8b05cacbe53f1e94409f253543237a56250b68f9e05abf396b3f6368fc"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/177fd6ce-65d5-4d6e-8943-853b8be77949_ab226c100b90.jpg",
+      "bytes": 24452,
+      "sha256": "a4c23e27e24d2b9957f2fa36a0db90cbc9e9d4b7a93fc659708307cf9a440994"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/17f7ef9e-1223-43e8-b252-e9a9faed53f5_1__0b655ef40917.jpg",
+      "bytes": 17456,
+      "sha256": "51bd76847408c017ce9f77a53af6af53e97038f04f2352d5c59e24ee888c15dd"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/17f7ef9e-1223-43e8-b252-e9a9faed53f5_1__5e2825aad41b.jpg",
+      "bytes": 43234,
+      "sha256": "753f8b9657817978263e6215f152d16e8f69f7418fd245f76348e0b4bf85e636"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/1__PREMIO_LONDRES_96d94fc63576.jpg",
+      "bytes": 15462,
+      "sha256": "a88757a91b40f59565d484680ab31d3716f646fcbcd65e484b2130a5058311ff"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/1__PREMIO_LONDRES_fff36f2091b2.jpg",
+      "bytes": 41908,
+      "sha256": "67cf2fb08240242b2996ea5ef009b7f6b107e018dee00cd3c74108b31de69882"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/2249423-movie-cinema-vector-icon-symbol-for-website-and-mobile-app-gr_tis-vetor_aaa7d7066754.jpg",
+      "bytes": 1726,
+      "sha256": "590d9a980b3ee498711948d92d91f09ccf06807e369f2fd667d09207ffec8889"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/2249423-movie-cinema-vector-icon-symbol-for-website-and-mobile-app-gr_tis-vetor_eb3bac800f00.jpg",
+      "bytes": 2747,
+      "sha256": "61f9f90b20ea4b50d681059edc7ac710d1ba22e43f2a720b61cb136e71801994"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_838728752264.jpg",
+      "bytes": 23227,
+      "sha256": "57e365f413f8e43fd0cb23204f68429e8208424a5d997cd51385920545280bce"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/2__PREMIO_FINALISTA_MELHOR_ARTISTA_BRASILEIRO_NA_EUROPA_e7ab551ed025.jpg",
+      "bytes": 64475,
+      "sha256": "33c0994bac30f729080333f29bb0d456ecc2a102b36a8166299194c4fa49f091"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3258ca57-945d-42cd-a83a-f608382fa626_5ebfdd5a3aff.jpg",
+      "bytes": 17483,
+      "sha256": "5163b4ce3d0ad30bc8aec4395b2178f0baba4ee98cee61fd04a8cbb2755d30d8"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3258ca57-945d-42cd-a83a-f608382fa626_e81bd29ab647.jpg",
+      "bytes": 46681,
+      "sha256": "0afc26b919d7c3300b18ea0f983702effcbd49a1da4e84edae8904c02024037a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3743f1f8-1e44-4fe7-8cf4-678352e9d04c_5d7524f20cad.jpg",
+      "bytes": 19151,
+      "sha256": "2c3d7bfea6b9b623885a987ea3890b1cd47e7f4a94130de997c855d8d4f9814d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3743f1f8-1e44-4fe7-8cf4-678352e9d04c_69f78e7b6f07.jpg",
+      "bytes": 11698,
+      "sha256": "a6114612cfd70c4c5acbcc7f96dd75fb7bccaef051f51ea9b1e9a8f8b38c9e43"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3__PREMIO_LONDRES_4__504552094faa.jpg",
+      "bytes": 10978,
+      "sha256": "c984767711989b752ebad3af9850553b324a07dc236303a93eb411e2fd074fc6"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3__PREMIO_LONDRES_4__90060bc57ada.jpg",
+      "bytes": 26083,
+      "sha256": "8f8fb8017cdd324892a16314e4888b502ca4f269df07c8151fced1e212bd2b88"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3__PR_MIO_LONDRES_d14ed192b54c.jpg",
+      "bytes": 2657,
+      "sha256": "2997b8d80893b547c3746d703548f206af3578f3edc541bbfe17b9784a118a25"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/3__PR_MIO_LONDRES_fe3c9192a97d.jpg",
+      "bytes": 6198,
+      "sha256": "ef931ac1e9c1e55f08e1be0872924139041f568fca045edf1cf42aff876e1850"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_4fbfa59ac8c8.jpg",
+      "bytes": 75959,
+      "sha256": "9eeb1f2f9829fe1b576a131eb1a9f72e306ae58a364eb03c710e2fc07cec6e0a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f_f5e253caa775.jpg",
+      "bytes": 78770,
+      "sha256": "1a470251031790d1a2917ef254134bff24f0859f696bcadc84e4320829e6235b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/45354b05-26e9-4f8c-82ae-e4bf3e7a1eb5_2586f7d97487.jpg",
+      "bytes": 18597,
+      "sha256": "04254fb3f2a26786c455220de21768156713c62fefd458efd5425f415d29d5b5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/45354b05-26e9-4f8c-82ae-e4bf3e7a1eb5_56494763bd50.jpg",
+      "bytes": 31678,
+      "sha256": "66b6db3c42d196653c23a6210c1679f1e99558a11764ffc06e1b534ff05e625e"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/547a9c9d-1bec-4dcf-8c79-e08ede4e1874_848aec744980.jpg",
+      "bytes": 67230,
+      "sha256": "0e6550883ab9df7cd41c41f6948b725daad7a2b4177ae16f09d473906de9aaf5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/54b6e762-43fe-428f-9ed2-989cce7ce0f2_19a60c9773eb.jpg",
+      "bytes": 57113,
+      "sha256": "06c40175efb4fbf6bc23431dc94174b0eb3a6fa6555315cbbf1305b60a230b66"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/54b6e762-43fe-428f-9ed2-989cce7ce0f2_668a2ba235a2.jpg",
+      "bytes": 21297,
+      "sha256": "f7f44c9b37563615ca8d4ecd14f9e7c6511f99adaa9f28394def4af41179c871"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/5__PREMIO_INDICA_O_GRAMMY_LATINO_1f8629598c1c.jpg",
+      "bytes": 39314,
+      "sha256": "d61d6e689e213c3cbc5155fb30a120a2d7f74279f29ca63da00c095f45ec6fb1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/5__PREMIO_INDICA_O_GRAMMY_LATINO_22246e716f87.jpg",
+      "bytes": 17263,
+      "sha256": "8c30dd59cc059823f7533a8a85ef5aefa0bf45d4c8b2b35666fbc8653191ccd5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/5a2234d0-69b5-40e3-be8a-c1ba1f8591d4_0e6ffa299801.jpg",
+      "bytes": 10533,
+      "sha256": "96a53e76d73116724a28ea45853de26fc15da2a55fd3e479cc7bcdc41c5d4b27"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/5a2234d0-69b5-40e3-be8a-c1ba1f8591d4_74064d0dbfc1.jpg",
+      "bytes": 24748,
+      "sha256": "0097a3b92cbae7d4e4e65f70598a1c00e805558e6294445f533b74bb79a9e174"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6d0141e29f1c40dfffff800affffffef_1__523ef86c7e50.jpg",
+      "bytes": 21603,
+      "sha256": "ddcc54cbdfc3eef6e7b37d29ef5247d6dfd87ee738da9682a64341aeafbe9f07"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6d0141e29f1c40dfffff800affffffef_1__6748fb12454a.jpg",
+      "bytes": 38996,
+      "sha256": "095c54eddb536761855429ce4a6cff2c0de799c7bd39acb2bd5c041adc75a31c"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6d0141e29f1c40dfffff800affffffef_32625fd2b909.jpg",
+      "bytes": 44768,
+      "sha256": "04856e8b0c05b54366b0a3391f14bba728ad0acfb9dc0dc907f939e8e2fffa96"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6d0141e29f1c40dfffff800affffffef_759629fe8b96.jpg",
+      "bytes": 19436,
+      "sha256": "037c223a3d25d5a71ae35998342ac8ae28e7184b45a45d01d5937b1d6b93b3b1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6db8019c-64c0-46bc-927b-f2e237a92090_8cd552d33af8.jpg",
+      "bytes": 8673,
+      "sha256": "146e544e34b86ec749a5b40020444d52b4cca090be5cbd28fc56a12b3563e616"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6db8019c-64c0-46bc-927b-f2e237a92090_d800a0021ad6.jpg",
+      "bytes": 7584,
+      "sha256": "d6c7ff149a0e786b10d0825347029e140b1fb3c9397191bc7f5f1558b7ec6c21"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6ed84b17-ca19-4fb9-ad1f-dc675d796cfa_41e20e73219e.jpg",
+      "bytes": 45849,
+      "sha256": "943cc214a3cc751704f848f3d0b499b6ce8cabe5eb1669d484b8dffb1ab68e89"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/6ed84b17-ca19-4fb9-ad1f-dc675d796cfa_ccdc8f0fcc70.jpg",
+      "bytes": 18545,
+      "sha256": "cfb43e301a344d4026980e2d71912b7a45e932310abf1087dfd4597b6a8b9054"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/72c74a9b-96c4-43e4-a0e0-c976fb307b3e_868c16227922.jpg",
+      "bytes": 36650,
+      "sha256": "e2796368e751bf20549a740de5915489df81b8dd89a5af8f2ccd2179014cbc77"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/72c74a9b-96c4-43e4-a0e0-c976fb307b3e_f44615cf2a0d.jpg",
+      "bytes": 14616,
+      "sha256": "39ecf74ba31e3f155449df349a0ef8ec486b8d34ca086b4207af73d59aca2145"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/8d6893330740455c96d218258a458aa4_18ada83b3f08.png",
+      "bytes": 2336,
+      "sha256": "5e4aa2a93b3c3082ce64d8007ec030ab847be16776facd4b82c1b7af536def07"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/8d6893330740455c96d218258a458aa4_fd9ef0b4c4c5.png",
+      "bytes": 1449,
+      "sha256": "89785c57929548e1001d7cbd8fbc932ca988da423d5fc1c5b1d19180ac6c2495"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/907cd057-faa7-4223-a79e-d11af9981495_52562124253c.jpg",
+      "bytes": 74683,
+      "sha256": "ac70f07afdf1d99903797451a9c029fef6bb50f810f0dd10abf9f372dd324a40"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/907cd057-faa7-4223-a79e-d11af9981495_6999f2d27a25.jpg",
+      "bytes": 27620,
+      "sha256": "b0baa092a64bd6e414a6197ba1a3c934acdc085c12398ff4024d667c86f2b7eb"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/97339af4-7567-4d44-889f-4ab959cbda92_3847ae6e2f84.jpg",
+      "bytes": 21986,
+      "sha256": "cec2b6c34b77eb044e3c6cad360f5c1682e8195612f6fd918947d9321276183b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/97339af4-7567-4d44-889f-4ab959cbda92_9cd6ed91c886.jpg",
+      "bytes": 65109,
+      "sha256": "f2a8953ca4fee1f03b91663ed479d3dd980b38a3e0f992fd1cb544bdb4a5a7d4"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/C_pia_de_seguran_a_de_logo_nil_luz_81da3623e92f.png",
+      "bytes": 14016,
+      "sha256": "11cd0ec38bc8a97b6dba6b2b78f15b403a7462e1821ffb37c2256b8ea7a608dd"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/C_pia_de_seguran_a_de_logo_nil_luz_cd235b3b3951.png",
+      "bytes": 31258,
+      "sha256": "61d88b58ddc498465711689c7a8aeb438c2e93aed16ced5aae991d498c6bdcb9"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/DIPL_ME_DE_M_DAILLE_d_ARGENT_9da5794aa2af.jpg",
+      "bytes": 13146,
+      "sha256": "396bdc52754d97ce065fd40ec1a764b5e6061ffc03f7d8a772b9963bcebfa438"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/DIPL_ME_DE_M_DAILLE_d_ARGENT_9f45ea6a54b3.jpg",
+      "bytes": 39481,
+      "sha256": "5596c9f266f6650707f7919755cfd4899018a71ad4e784bbed79a0ae9299f9bc"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/LE_M_rite_et_D_vouementFRAN_AIS_1ded0eba157a.jpg",
+      "bytes": 10173,
+      "sha256": "2a576e4d7f1b4bbf777ab685baade21b543eafdda05e5d35b2b4a8be36193d66"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/LE_M_rite_et_D_vouementFRAN_AIS_d4dbea0472b1.jpg",
+      "bytes": 31736,
+      "sha256": "2451f998431d63eabdcaec1d44882309cbc0946510aefb8f68f0e6f275ee4efd"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/Sem_t_tulo-1_2e0773f8d46c.jpg",
+      "bytes": 14545,
+      "sha256": "0c369d24036a7e96a760d26f2445d6d08fd082c3b1d962c33a2132ba07714050"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/Sem_t_tulo-1_4e0ce52790f8.jpg",
+      "bytes": 44007,
+      "sha256": "944d05fb337a0add1de21997f874b598586a8fdf37c2c8345e15ff115e5f49e9"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/Sem_t_tulo-1_837175501dd9.jpg",
+      "bytes": 70200,
+      "sha256": "7cd4c721b88b944c10be15bb296f830e3c1bfa9a4658f4667f5a3bd2bb7680bc"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/Sem_t_tulo-1_8aa8909894a2.jpg",
+      "bytes": 30351,
+      "sha256": "1ec80002f85532bc295ce5c7ef69f85fc00f427605f36f898534058249c99a78"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a1b09fe8b7f04378a9fe076748ad4a6a_476ca9aff93c.png",
+      "bytes": 1470,
+      "sha256": "0059b841fafd7bba6fcaf31bc27772391b90507a0b2226a0cc6f14a12af35b97"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a1b09fe8b7f04378a9fe076748ad4a6a_49fd33fb13f1.png",
+      "bytes": 1128,
+      "sha256": "1194ec41a3965c893c033b436e92cdb6ff9d4310fa24e6150c896148ef5e8a56"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a7e89372-af28-47c6-933e-6bb121ca62f4_4751fd8978bf.jpg",
+      "bytes": 29467,
+      "sha256": "10935d6278e945bbf975fb455fcb917abe65e145e1003ef55cf24c616b8409e2"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a7e89372-af28-47c6-933e-6bb121ca62f4_efb1591eef23.jpg",
+      "bytes": 16698,
+      "sha256": "0094c440a50aa5670e0d73c2ecb82ee185ebb11c6c11d715187e660aeace3e3b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a891044a-3edb-41ac-b532-30f20d73b7bf_1__4f8b75242304.jpg",
+      "bytes": 10732,
+      "sha256": "5f1174d568a24ece42f34b6cbac0d12a47ec3f4cb6c77317384a28999e22818f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/a891044a-3edb-41ac-b532-30f20d73b7bf_1__dbf2fd9ca892.jpg",
+      "bytes": 16873,
+      "sha256": "926e2499bab93332e7689b1396a1235259157686b0c482a14dd6c09b32d81044"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/ab3932b2-adca-4931-ab0c-18b5f00791c7_98f1b5691014.jpg",
+      "bytes": 42194,
+      "sha256": "0cc5cdc07c764f487e79ce646e528f65b055ea4684b33d75eeb47fced8566d65"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/ab3932b2-adca-4931-ab0c-18b5f00791c7_e843b1f01e18.jpg",
+      "bytes": 15225,
+      "sha256": "857db3171b48ea51fbe8ff60c671c9733f06d4521a7f29b540811a5704d2f4a8"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/audiovisual_3ab691b10278.html",
+      "bytes": 435979,
+      "sha256": "5d3702e4a279043057668cebbd6b73a4f36c9dec76d4f186531cb4ffe6a89459"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/audiovisual_6e7a814213cc.html",
+      "bytes": 436119,
+      "sha256": "03695f8eef5f2bffe0e36765aab1860f721d46c7d378c704627a9a573121333d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/b183fef8-812c-4948-aa5f-0305662fdde0_1ccbb265ffe3.jpg",
+      "bytes": 56588,
+      "sha256": "f5cff7e3edc67beb39ab73dab56340dca7acde4748bf629a002a455fc5fbb4d3"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/b183fef8-812c-4948-aa5f-0305662fdde0_375c9f981979.jpg",
+      "bytes": 19530,
+      "sha256": "724e8897f72053b35bc42916e1ff56d5548afd1c7da3d7953413bc37cf92b564"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/b2b2c2d4-cf3d-4f90-a105-112488ec653a_5192265d7126.jpg",
+      "bytes": 9807,
+      "sha256": "a5d9adc3659a163768c0ae3c337b8f446482eb82ee0ce2f6e521d5eeb51de320"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/b2b2c2d4-cf3d-4f90-a105-112488ec653a_5857b84129ae.jpg",
+      "bytes": 16905,
+      "sha256": "c54ae240111c304cec1267a9cf3177ab72082388c39aceebf7282293c8c13153"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/biografia_5eeb6cff80dd.html",
+      "bytes": 410104,
+      "sha256": "3b777571517ec038c69baf18e98e5c05a9de0ce0878e15a56a2ce5722a16f268"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/biografia_7eda30d675de.html",
+      "bytes": 399905,
+      "sha256": "c3bd4b263cf93500f4dbd9c223a8cdee3ba26f247a07dafdce7ec455c7663d59"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/c905c029-3e58-40b5-aadc-d0725f06b1cb_2932552f9783.jpg",
+      "bytes": 13170,
+      "sha256": "61cff05039577e619e2b316cd701e8292d997a6ea075b98e59a027d1460cbd7f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/c905c029-3e58-40b5-aadc-d0725f06b1cb_ea9598d98a0a.jpg",
+      "bytes": 23586,
+      "sha256": "ce9948f77c3a4ddda71ac25867ab9c5506953f87c89fb31248e7714db6a23932"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/canh_o-handball_0b7326eea08b.html",
+      "bytes": 430599,
+      "sha256": "be7906262eb9936d3b05dff449f7a7c63a1272bd7fbe32e44439745686f9b89a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/canh_o-handball_49a4e27d9c2d.html",
+      "bytes": 429761,
+      "sha256": "fa772f0e4493fba42615666a0677a919dce398b55dc310aecea557a41d259429"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/contato_7fd5534161a8.html",
+      "bytes": 450476,
+      "sha256": "50ebf886c0a0e8c45cf3bdb589c65b605458b24a0c996ca7416bd245a0c26ca1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/contato_9e7806d2d665.html",
+      "bytes": 450516,
+      "sha256": "78aedfefbf671596c8af4c9d2bff87196e0ff134416c1fa344b226e7dc22ec92"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/discografia_9c68b8fc8c6f.html",
+      "bytes": 607538,
+      "sha256": "0b9b01d5edc23553478f2a7e698d6f82e3418a042ec93627769962869edff347"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/discografia_c188f1a2b223.html",
+      "bytes": 607730,
+      "sha256": "21e10bae3bd9c8ce7064186b8d365d46aaa935dbecd2c51831d8156fb15503fe"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e316f544f9094143b9eac01f1f19e697_84f4800054bc.png",
+      "bytes": 1028,
+      "sha256": "3f74b016dd83af4a44212a8b5d65962ba2bee34f32daae7d87837eb66bfba8d4"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e316f544f9094143b9eac01f1f19e697_b17bcb5becdd.png",
+      "bytes": 1139,
+      "sha256": "423112a01aa20830845e67cff25561d5115481aca58aba0d319e3f4be5a32a60"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e7e3dd30-6935-45d7-ab83-e0a479e56904_15df6d50d978.jpg",
+      "bytes": 55507,
+      "sha256": "74236ce6a3171c2fc560144473fb4c9087f4b1a66f80446c20df4ca43b1fafa5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e7e3dd30-6935-45d7-ab83-e0a479e56904_2cb5b0221426.jpg",
+      "bytes": 18122,
+      "sha256": "1fa26845e0f89f5ec82310b04cae04a21469940c702084e5d3faf26364d574bc"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_0ceb8588efc3499b8e7ed466fa5f63a2_mv2_022eb02129d6.jpg",
+      "bytes": 12080,
+      "sha256": "e71a494331e5b9089100ad5835eaa392b3416c0903baa5b514b50084108d5d21"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_0d821d902d9f4d0fb13345003d470a8e_mv2_91505bfd5694.jpg",
+      "bytes": 10827,
+      "sha256": "6f0aa633737bbb61f59906b92200b392e3d352c7a89fff4676939bf28c018a34"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_45955f4cd802.jpg",
+      "bytes": 98333,
+      "sha256": "b9b1faea96448bb31d1eef52d7b2e4c310360998814151379e18a708b14e5969"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_11fd7bb96ed246b6b3a032791fcbd687_mv2_65e7547f74c2.jpg",
+      "bytes": 77394,
+      "sha256": "6eb9cf463235fe61f40ac364af8471b5ca584edc5593d4b69d974109f6201d9a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee_mv2_6d67061c05a9.jpg",
+      "bytes": 12755,
+      "sha256": "39432e93db0d59944f1f7f4869b8683c0e0a7f976df8827ae60c51bd2421bc3a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_581ad1053e72.jpg",
+      "bytes": 28414,
+      "sha256": "69f8972d5d0dc825727b4ec9ec6f0c409678ed2058bcce1748d96d869ab1676d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_27f69d73cfbe440497f04b3c5c848a52_mv2_70b70fcaa3ad.jpg",
+      "bytes": 37130,
+      "sha256": "77e7c0273c3158bd08f798e296d21573750fc6a6ce95be97660cc03c9d618218"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_c79621cbbb98.jpg",
+      "bytes": 20395,
+      "sha256": "06d52cda289439ac071c65d34f063ab926124ab7bf35bffbdec32f28be2f57e7"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_d119bf333ecf.jpg",
+      "bytes": 39811,
+      "sha256": "ce2438398116e25c3e8e8c1a47a578894ec23a4a8cd1b53bd6f2cdce0a3aa73b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_2836d5d010f545b89f6ceedd2fdc9c86_mv2_e5495f9fbdb3.jpg",
+      "bytes": 38595,
+      "sha256": "9bd3d5c11196042e44f9e4ecede504d1532efc536b589c5cc961e30021fc2d64"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_292c3bdd85f64ffdac66601a1b59ed36f003_03c422bbe611.jpg",
+      "bytes": 16638,
+      "sha256": "5048460c1d16d0b9e575e8cefb49751cbce2d80f5fce7e6f30e8e89d32f73fa5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_292c3bdd85f64ffdac66601a1b59ed36f003_86b4be874e5f.jpg",
+      "bytes": 24265,
+      "sha256": "def847df9e099a6bae13b1f09dc30069f4454063734d8cc6d514d8ee724e77b5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_292c3bdd85f64ffdac66601a1b59ed36f003_92147c535c40.jpg",
+      "bytes": 27360,
+      "sha256": "18a29ade59775832d232fb1b19be3b88f3d1e458594256c81e73ddbca858681c"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_292c3bdd85f64ffdac66601a1b59ed36f003_eb221d9dcfd7.jpg",
+      "bytes": 8383,
+      "sha256": "4d3f1068290b29ff9e97482e4269b34216f213138640c9f7b44b82f5e91a3bfd"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_292c3bdd85f64ffdac66601a1b59ed36f003_fa27c8e69c59.jpg",
+      "bytes": 28463,
+      "sha256": "9bc94355496c5b69eeef2528b5908cba202f003dd821093f0fd26a8b487f8293"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_09616b55dfb5.jpg",
+      "bytes": 49989,
+      "sha256": "852e677fa1cd4692e656472dbedaaf8ed17e2780c6528d7d1997d5c619660c92"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_8f0c69ef8921.jpg",
+      "bytes": 65652,
+      "sha256": "3db0642fd0dc6066488f12be34f7cf08abe13f1930444e9efd15034d47284ea8"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_35edb3121c5f484d934839f88b185e8d_mv2_fba595544f3c.jpg",
+      "bytes": 25785,
+      "sha256": "adf27696d3e98529cad460d723f97ffdf0132e2a8f82545c3560f3ef2430d250"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_727333af109c.jpg",
+      "bytes": 262059,
+      "sha256": "cda7813b5fb302ccc524bcddd9c1cccdd877a43552b4502daa7e5ed6fbd75a59"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b6b836f8ec73.jpg",
+      "bytes": 37823,
+      "sha256": "f08c194cd65b2e971dff4c961a610aa1bcedd2881f8c57c73226a1deee93c386"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c_mv2_b8fa58025849.jpg",
+      "bytes": 116003,
+      "sha256": "da7ef0d74039c672342493839b9afb015aa0cf7fd89d8880b1827777e4da4584"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_496ae06f9f6c48a996bd5caa42581d03_mv2_e1e45dec5b2e.jpg",
+      "bytes": 15211,
+      "sha256": "32b6b5432e4336379571bbc9f04d4bb367e2840adee338b943552a0b9698c6a0"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_0a50bdfacdd9.jpg",
+      "bytes": 63746,
+      "sha256": "5b3c9bfd3c569b174131a7679de68aba28cb8f8ed57973fd257ef2e65c697faa"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90_mv2_24716f07c3a5.jpg",
+      "bytes": 41940,
+      "sha256": "ee1563320bb2e18d8f8f838350d56ec5ccc78f54f121cf188af49e9903e05cb1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_62b75e1562ba4a4c9d9de04427559cbd_mv2_008c02e26292.png",
+      "bytes": 52225,
+      "sha256": "797d0d3f4c01d971b0007b7cdbd13422277be27f0103d181d02a52b1f7c1e23a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_62b75e1562ba4a4c9d9de04427559cbd_mv2_28cf6a8d8957.png",
+      "bytes": 47121,
+      "sha256": "67ce76a3468fbaf828590e70934b755c12490792dff4c3386a80fd8c7bc24374"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_c4be601bcb78.jpg",
+      "bytes": 23623,
+      "sha256": "4e98314ac68afab9c54ef1fdc5f66ac9a07e89f2c19482473303701e92245bb1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_deed65998d29.jpg",
+      "bytes": 58121,
+      "sha256": "094b7618512efa1fcdb6d9d265e3af30ae088ca2256d98714620321dfe69b4d5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_68251e5aae224a0eb10afa7b5192977e_mv2_e860e1b9c031.jpg",
+      "bytes": 76689,
+      "sha256": "4b4495dec4358d054a2c2ff998d18ecb1f543f439cab515e9253aabf6f2c3e17"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_690b79eba64f456083bd2c301a5a8d3d_mv2_25d714efa70d.jpg",
+      "bytes": 5680,
+      "sha256": "c6420fbd34eebc3782cdad567a8e402c85a289683206827dc23fffdf7e6d9f3a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_69769915169c4b629890fd09773a4ba9_mv2_0de131ebda1c.jpg",
+      "bytes": 89705,
+      "sha256": "c76894cd755c2e757cefd9bc17635dd3b4413262aa5af7d754315221a0083767"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_69769915169c4b629890fd09773a4ba9_mv2_1789c1501cbf.jpg",
+      "bytes": 59212,
+      "sha256": "57e0ec11016f84a2662f87fcfa0694f1a4cf185d9289a6737c5fdaa2a7620b69"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_69769915169c4b629890fd09773a4ba9_mv2_8c9b69e43291.jpg",
+      "bytes": 26731,
+      "sha256": "86a61bfe80b8eebc73101537a9e86a286dc02a70ae2c68a5a3d5d043807c2191"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_6bb025a703c34131828e2cd67f992538_mv2_3c238786196c.jpg",
+      "bytes": 108558,
+      "sha256": "087c51cbedf23ec51896ba61078c8e578cec465c2c2e5ea1926059907c776239"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_6bb025a703c34131828e2cd67f992538_mv2_683facd20f71.jpg",
+      "bytes": 167414,
+      "sha256": "6dd60185511ea15c3f743e3cbaa35f66c76ec5f5c300c70b9f099806ab34693a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_6bb025a703c34131828e2cd67f992538_mv2_6a65fb5817cc.jpg",
+      "bytes": 42475,
+      "sha256": "020cfb02fb625eff4d15c9079714c411a95adf6b878b903f1eecb8500a9e6969"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_70699039f89d4528ab57aae9d03daef4_mv2_3a8dc3388922.jpg",
+      "bytes": 66004,
+      "sha256": "043e420dcfc248f881a7f2e77e6db340ac47481edf1d9b798ce510c8443634d9"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_70699039f89d4528ab57aae9d03daef4_mv2_76f43d887cf6.jpg",
+      "bytes": 46473,
+      "sha256": "141b968a437228ad904dd5bb469954b1097d1bb8bbc55cee23fd22c9e5837f19"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_8b81bee178fb4bb99c95b407d2eecc98_mv2_2c18681cb872.jpg",
+      "bytes": 16201,
+      "sha256": "f9c17e3cf4cc4a0bef297c8351797611b4ed6cb15357fe22605862bbb91990a7"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_9d2e194310aa40888d1cf1fff4fb0029_mv2_e38f14a6dc52.jpg",
+      "bytes": 89678,
+      "sha256": "0096d9957d4d3e753c124efdcd32a680b1cd56326216cdffb980b1cb48f52a9f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_9d2e194310aa40888d1cf1fff4fb0029_mv2_ebbc92b1583b.jpg",
+      "bytes": 51770,
+      "sha256": "4f79c38fb898efda160cc5a273384c780c659e1e00e4fde1502632320460a3cf"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a1010337b9fa4783aad591c92e986b98_mv2_3ae5e5d9bcf9.jpg",
+      "bytes": 248454,
+      "sha256": "69e3cbdd7e2ff32b234e48e90c9a18560b36e632bfd0f4ff54a3514ef2fa3feb"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a1010337b9fa4783aad591c92e986b98_mv2_5d793eeda6dc.jpg",
+      "bytes": 52148,
+      "sha256": "4b32b60f743603e39d2e70cd28b6fe47eebb3f29d52cb7149ffec01db8ad1abf"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a1010337b9fa4783aad591c92e986b98_mv2_63a26fa129b1.jpg",
+      "bytes": 153641,
+      "sha256": "fa464f9a851a09f8d8386fcc1fab4a9e448b32e319b0b5586b11c52850d64f51"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a58fa3722e684b1991373e9417fcbcdf_mv2_294c27bda02b.jpg",
+      "bytes": 41690,
+      "sha256": "3d0b9dcbf91c420df79f8ffe29a4e0eccff8d3dc665033cf78008ce5532e456b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a58fa3722e684b1991373e9417fcbcdf_mv2_3a449fc98b7a.jpg",
+      "bytes": 72821,
+      "sha256": "0a33150d9ce65baf389e511b7759c8635e3dcc52dfba293eead39c1e86ed7b4a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_a58fa3722e684b1991373e9417fcbcdf_mv2_bf27857945d6.jpg",
+      "bytes": 118623,
+      "sha256": "9e30208701efc5811015c0beeda74fc58d28b1fd459cd8993553221d5a99af2d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_aeeb8f71771b4b2ca71a87f472a91a91_mv2_556b40799bab.jpg",
+      "bytes": 40813,
+      "sha256": "971206ee8f1f4e80726e93288ac8e8587863d9135bd4742c577d9a04c1f96143"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_aeeb8f71771b4b2ca71a87f472a91a91_mv2_57e477d7b820.jpg",
+      "bytes": 11955,
+      "sha256": "5d516635a509063fc79ccfb5748521565bbd32f297fd84031d33e67a229ee5ff"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_aeeb8f71771b4b2ca71a87f472a91a91_mv2_6adbbfe76d7c.jpg",
+      "bytes": 29505,
+      "sha256": "7bd34ba616da6b36b03522ea03ca7f0dbb9a700338452002764df09f7feff99f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_aeeb8f71771b4b2ca71a87f472a91a91_mv2_dad594176626.jpg",
+      "bytes": 46773,
+      "sha256": "228e469a1a2574d2bc5fe44a1a48f0140bc7cb81f597cededb44bd996e99cf58"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_b045c239c5434ee5b8e384c24fc24049_mv2_728e5815ab02.jpg",
+      "bytes": 44232,
+      "sha256": "b3c442cdf10f8b1942820fef6406646546eac13118dde0d053ba9d2c5fda4589"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_b045c239c5434ee5b8e384c24fc24049_mv2_af7e9b8d272f.jpg",
+      "bytes": 62416,
+      "sha256": "da310b2de1b1c0edcf246e3f645e15bf00ace5ed3eedb407a8b9fb1adf4b25fe"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_b2f4d245eaf743e0a36ecce11a47e4fb_mv2_2e17d2703c44.jpg",
+      "bytes": 37560,
+      "sha256": "2a29588db5f400662e14b54acc937a3abae740149c2eccac68d063fd45dfed9f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_b2f4d245eaf743e0a36ecce11a47e4fb_mv2_c4e9b1bb5bf5.jpg",
+      "bytes": 18454,
+      "sha256": "316c72db4dc73095c73540018fa515b009da821ec5bce7ba1072b154cf77fa85"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d_mv2_3511759aa564.jpg",
+      "bytes": 9740,
+      "sha256": "6a184f8e33a13b8dc6a1901dbf6e944f5a62991900631f1a10796d93ea74b90f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_bc0bceaa0ca547f496d6390fba1ffe30_mv2_9ab49e6a51c6.jpg",
+      "bytes": 31009,
+      "sha256": "3c6e719e21651a0a11ca01f207ce8b25325dd487bf4e1db31247696ec4434b92"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_bc0bceaa0ca547f496d6390fba1ffe30_mv2_ae563cc28d84.jpg",
+      "bytes": 30308,
+      "sha256": "bf73f3e8b00654cce0c3fc0dc9eba553bd48c01be284a59d2c563cfbe5cef94b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_bc0bceaa0ca547f496d6390fba1ffe30_mv2_b7cce30b363e.jpg",
+      "bytes": 13716,
+      "sha256": "1308234284fc1e1238f6b431f454d8c702f917ba113cbe7f440f1d7fe5241e6f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_be49167576d54731839a9f3dcb08520e_mv2_26175ecf95c4.jpg",
+      "bytes": 63298,
+      "sha256": "f0e362e1d201d1f80e2e5745d319044ff4349dd685d47434e0a3388abb6fbbe5"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_be49167576d54731839a9f3dcb08520e_mv2_7511e41e77eb.jpg",
+      "bytes": 31688,
+      "sha256": "ab29127d18a4afc483d6954699b2c0ad34a324bf3f2d249ec0e17ff99408df47"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_be49167576d54731839a9f3dcb08520e_mv2_e5da2fc34c1c.jpg",
+      "bytes": 91605,
+      "sha256": "9d63a54e6965343cf0c1135f620afdbdb6a456503e261c3e3a9966bac01ddf79"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_c3aee703b23b47f5a532916f10b7c606_mv2_1bef23a4bd1e.jpg",
+      "bytes": 24933,
+      "sha256": "113047311509fdc2de6698c22a6fe87da2407268eef651412ee25f2cfe7e5690"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_c3aee703b23b47f5a532916f10b7c606_mv2_356a1befae3e.jpg",
+      "bytes": 65863,
+      "sha256": "6a4f66c0a207f992b5746a431e1800045ef3a1dce92d9a999b70e12123350cd3"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_c3aee703b23b47f5a532916f10b7c606_mv2_6b5c102086c0.jpg",
+      "bytes": 75037,
+      "sha256": "f85816929c53363b851394a74b4a2a1487400eba585150fa09d0f1f643dc853a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d057042a929d470ab96494d9145bed6b_mv2_57a263c28034.jpg",
+      "bytes": 53375,
+      "sha256": "5033898bf5603307f5941d482ff5bf22f43e06f79f3b3ebd9651d4912c87d2e1"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d057042a929d470ab96494d9145bed6b_mv2_725f4da7326b.jpg",
+      "bytes": 28596,
+      "sha256": "839cd28e901da086424ec9ac36e1c16e4409e92b4568f9a716fc9f15b095835f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d057042a929d470ab96494d9145bed6b_mv2_8c3dbd97fcb4.jpg",
+      "bytes": 61691,
+      "sha256": "44494555dc0a949404cd6158f0d8bbd403b2468815b1bac01a027bca9082f00d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d068664cc461477c9d9fc9addc0d9e83_mv2_818d8e7b0e71.jpg",
+      "bytes": 83908,
+      "sha256": "ee8c20ee46d04559f2c272f33edb06e9658646190939c3bc883965142bb9e090"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d068664cc461477c9d9fc9addc0d9e83_mv2_ad132f66fc0c.jpg",
+      "bytes": 46533,
+      "sha256": "0f47c8f70ec6b7442c224d0e1d5a47276c744e7e97e1987a2ef981abee29b593"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d933c876c13d4658a147d5ee8eca4f09_mv2_004b7dfbb87e.jpg",
+      "bytes": 53098,
+      "sha256": "d881d380c7ca043762b19ac116c0718d3b1e5e3565b7078874d1dbf24b254de3"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d933c876c13d4658a147d5ee8eca4f09_mv2_11d5362ba6fe.jpg",
+      "bytes": 52999,
+      "sha256": "464888266eb67d361ff6355e96f08d05df4163269fa82584c3a46dd68664746f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_d933c876c13d4658a147d5ee8eca4f09_mv2_9a53f141a6b8.jpg",
+      "bytes": 28783,
+      "sha256": "ff75c74ccd1b9d0b928d0049526210cd2f6cf8f48f14ee6c1fa28dcdc83c796f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_3429161fdde8.jpg",
+      "bytes": 45057,
+      "sha256": "d3dac764f5504b3c19f7ab8e4f604a2f84f183c4139ddbb11656223237bbd29a"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_4ea3ea5434bd.jpg",
+      "bytes": 32025,
+      "sha256": "e5bab2c7a63b9f8b764a2ec248845dedef9ac38dfb5f1bd371b77187be3e97e7"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16_mv2_8ec1cb9d16d6.jpg",
+      "bytes": 12288,
+      "sha256": "9b6894e592758ece4aa6dcabd3fc47291b091ea603cae4155fe0235d410d4434"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_dc6a10dd5059457f87a567431606116b_mv2_802410394994.jpg",
+      "bytes": 71095,
+      "sha256": "59a37105a02ee763885de83c090ac7108c2c182985294485f0e29200a202c7ad"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_dc6a10dd5059457f87a567431606116b_mv2_fb91fb37bdbc.jpg",
+      "bytes": 49729,
+      "sha256": "3b9aa263643e83ac9d8fffbf1635bbab8b34c0c474a4546a5416966894cb1380"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e5ad064e763a422a9dda1ba8c3441fb8_mv2_1970a84a7c03.jpg",
+      "bytes": 73844,
+      "sha256": "223c356df29f8158a50a9c22826375d06a555d7c386a5ad517b81ee51e655695"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e5ad064e763a422a9dda1ba8c3441fb8_mv2_ffc0cdc08015.jpg",
+      "bytes": 41349,
+      "sha256": "70e01bab63d694ea17e00ca622f268749fd9046a86d1b98d94b463d7342fc881"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e5e54bc228344d19836628beb2f7c2b8_mv2_85f4822031da.jpg",
+      "bytes": 33679,
+      "sha256": "a32dcacd616801625d38adf8e3e471215ce4d8db532bd6c2cb0ba92802c87555"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e5e54bc228344d19836628beb2f7c2b8_mv2_bf1a475c63b1.jpg",
+      "bytes": 46853,
+      "sha256": "a1a0731646b22f28dac9b092efa6dc6d2787b515d5e4c94da42fe2a457b64d2e"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e5e54bc228344d19836628beb2f7c2b8_mv2_fedafca9ea75.jpg",
+      "bytes": 57052,
+      "sha256": "880d532e435a1a0874e9c911e3e27ff7353ff3c876c9cd12189c66abf8951b04"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_e85bc2aaf5184320aff1fd2b1238b313_mv2_484e3469ab7f.jpg",
+      "bytes": 10056,
+      "sha256": "0ff58cbc5c5172f3268de6c98c9e6c5e42d43fb9180fe8d776cd7991ae7ea400"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_ed8ac4860260415986a18b1499ec310f_mv2_0ae920b82f4e.jpg",
+      "bytes": 12814,
+      "sha256": "e8addfb15f22399204f97c6d8af78034612584a32a4cdf3843e5a4722da9a616"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_f1a9ba58207140af952f46cd58756a58_mv2_76f84bce6759.jpg",
+      "bytes": 11486,
+      "sha256": "41c88aabe5a4b754dcc8cf920631c93858304211172140cb906c7df1c0555423"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_f8c95e2f24ec4132b7f8bce1821368d3_mv2_371086597b8e.jpg",
+      "bytes": 68594,
+      "sha256": "ac51b780a8d8cc75b9141cd1058c7ed704301431f34cf559aa2e85bf59916a43"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_f8c95e2f24ec4132b7f8bce1821368d3_mv2_d3e9deadd0c3.jpg",
+      "bytes": 46581,
+      "sha256": "f07e57d0df6323cb0ab00359ac46bbeb8e413e2d8bb03092664d1a818418d140"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_fb3f6999a788440ab4eca552d8489563f003_bf57309ad4d6.jpg",
+      "bytes": 13831,
+      "sha256": "f8496e4b1b0cfd1dea186597f10cc4f3cf076fcbbe0424f6a2e0aa534ee28f2e"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8911b_fb3f6999a788440ab4eca552d8489563f003_c3e406dbbcac.jpg",
+      "bytes": 7976,
+      "sha256": "dfab0b6a24c73f87d308f56291a90983d58a37e701e526fabaa09831c0429e7d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8c4837f-7827-403b-8bf2-ac5984ac6b9d_781e5b20c31c.jpg",
+      "bytes": 33446,
+      "sha256": "8063981071eb46027fa52071d29fcbd1c14baddbe68083c24b66fce96093b013"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/e8c4837f-7827-403b-8bf2-ac5984ac6b9d_c19c48f16bfa.jpg",
+      "bytes": 18341,
+      "sha256": "920d3018b7b6d6679ae61cbcc78392e1d1f8b7424bf4ad40077bbcbffcb099e6"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/galeria_21ad74a4ecb7.html",
+      "bytes": 659579,
+      "sha256": "650eed931aa9aa8751ada167f5b40b6e9fe9372779ac14d605e9c5a70a7d1c3e"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/galeria_58bfc24f9607.html",
+      "bytes": 659339,
+      "sha256": "9c58fed3b18cb3c339ebeee3e9306a5b32ee0cf290ac912255de52f48a2e93db"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/literatura_7f9830740c0f.html",
+      "bytes": 424804,
+      "sha256": "5ace9053ca6058eaed823128eec0aad336ae24602fc54e35a602b782eca11f07"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/literatura_8a1d781ef911.html",
+      "bytes": 422707,
+      "sha256": "6f5570dc6b1e12492cb4551dfa85fc432c59ea8d53c759b0df0c561eca80da6d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/m_sicas_1fe429ed4902.html",
+      "bytes": 413089,
+      "sha256": "6364955428eec832ea71a6f5f665859b6b9eecc987c3841f3af3b8fce5be60e4"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/m_sicas_89198ac22cec.html",
+      "bytes": 412974,
+      "sha256": "0ec1cc2d7479beaab5c4968b3b8df98e2df6a59d469b7409204f60c2cf297c51"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/nilluslcantorlcompositorlpoetalmineiro_68e009646cd1.html",
+      "bytes": 605555,
+      "sha256": "ad7a270dc3ef65ec367b6c56b41d3da2b83c55d7269a6f3626a1436b0dbb6d67"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/nilluslcantorlcompositorlpoetalmineiro_99f7be07bae5.html",
+      "bytes": 606434,
+      "sha256": "54c9fef42b94ab0753e879826c1d551ecc55f75cb7b8847b688649cbdefce100"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/not_cias_702be7394c92.html",
+      "bytes": 815549,
+      "sha256": "f874b475aed28efb35ebe6d06eb443fa81f937b70551a2ce39c37ac2f406dc31"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/not_cias_93950f82eae3.html",
+      "bytes": 815584,
+      "sha256": "f07f6b49d0aa86e421ebb03a92f59f79867533058f1812498c627f8899af4d75"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/site_cultura_teatro_amarelo_cortada-2_4ad01777a7d9.png",
+      "bytes": 1419,
+      "sha256": "130449cdef72f94b952890d20316b161476a4051d24aa9cac77da46065dd333b"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/site_cultura_teatro_amarelo_cortada-2_df536722a42d.png",
+      "bytes": 2577,
+      "sha256": "fc0d7fe7e27082c0acce5ae88a0479beb1d7760f7aafcfbc8259b42ce0177e9d"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/teatro-cinema_083995785509.html",
+      "bytes": 404268,
+      "sha256": "0a41cdae7458e0e5593d6e1f313aad53a558fa195ce20d886ae59376fee6e265"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/teatro-cinema_eb57600be5fc.html",
+      "bytes": 403883,
+      "sha256": "796297f213100e588cc92fea553081debf62ca744d5ae2614e7df3525134b772"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/website_91e8e6035d90.html",
+      "bytes": 397010,
+      "sha256": "a63bf525b69f3226f21f7ccfb5e9d4902f848c973acd270605bd969f268a8c1f"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/biblioteca-completa/website_bdf94d15b60a.html",
+      "bytes": 396660,
+      "sha256": "daada034e08e73d7195ced1b7f8064002fc855a8c2f69c31fffa1727bbad5931"
+    },
+    {
+      "path": "01_ASSETS_ORIGINAIS/downloaded-assets.json",
+      "bytes": 96191,
+      "sha256": "4fbce494317d731aeb61c8b056016e4f73f3455cefb80eb3b61203d601deca03"
+    },
+    {
+      "path": "02_LINKS_E_MIDIAS/EMBEDS_E_MIDIAS.md",
+      "bytes": 1462,
+      "sha256": "214c37aebdce7ecbece5ad683b9b2665e20a6f1d692fda8eb940dcff726e8e93"
+    },
+    {
+      "path": "02_LINKS_E_MIDIAS/LINKS_E_MIDIAS.md",
+      "bytes": 1825,
+      "sha256": "92f2ff5cb3d5165e7d05168788716f2d4f7b90f3f1be10a944a4374d94a6d0b6"
+    },
+    {
+      "path": "02_LINKS_E_MIDIAS/embeds-e-midias-detectados.csv",
+      "bytes": 1355,
+      "sha256": "c119597a5b533ff2acac35f2b7e90c55f51bf22046df1f49e5c62edaf6585188"
+    },
+    {
+      "path": "02_LINKS_E_MIDIAS/links-completos.json",
+      "bytes": 64449,
+      "sha256": "293fedaf63cce930e6285dfd6ccdfdfc504daf1e2376d34955a8b96c3203ff5e"
+    },
+    {
+      "path": "02_LINKS_E_MIDIAS/links-por-categoria.csv",
+      "bytes": 32351,
+      "sha256": "963121d1ee4dcb1318246f663675aae7c6e26b786acb61922df565596d643ff1"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-audiovisual.html",
+      "bytes": 435979,
+      "sha256": "5d3702e4a279043057668cebbd6b73a4f36c9dec76d4f186531cb4ffe6a89459"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-biografia.html",
+      "bytes": 410059,
+      "sha256": "d09ab64fd747cc56a081a649604f7617b3c2a7e58c0ccdae8da7b7db38bc6299"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-canh_o-handball.html",
+      "bytes": 430584,
+      "sha256": "1e9f930e306231b6c3c0903cd749424e88eaaa5f8a5fddf680709f4d0858f5c6"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-contato.html",
+      "bytes": 450476,
+      "sha256": "50ebf886c0a0e8c45cf3bdb589c65b605458b24a0c996ca7416bd245a0c26ca1"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-discografia.html",
+      "bytes": 607538,
+      "sha256": "0b9b01d5edc23553478f2a7e698d6f82e3418a042ec93627769962869edff347"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-galeria.html",
+      "bytes": 659339,
+      "sha256": "9c58fed3b18cb3c339ebeee3e9306a5b32ee0cf290ac912255de52f48a2e93db"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-inicio.html",
+      "bytes": 396660,
+      "sha256": "daada034e08e73d7195ced1b7f8064002fc855a8c2f69c31fffa1727bbad5931"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-literatura.html",
+      "bytes": 424665,
+      "sha256": "aba0aceb4d166837405b8e13a8821d16a3e634a61cde8143b52e310a187488d0"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-m_sicas.html",
+      "bytes": 412974,
+      "sha256": "0ec1cc2d7479beaab5c4968b3b8df98e2df6a59d469b7409204f60c2cf297c51"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-nilluslcantorlcompositorlpoetalmineiro.html",
+      "bytes": 606434,
+      "sha256": "54c9fef42b94ab0753e879826c1d551ecc55f75cb7b8847b688649cbdefce100"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-not_cias.html",
+      "bytes": 815549,
+      "sha256": "f874b475aed28efb35ebe6d06eb443fa81f937b70551a2ce39c37ac2f406dc31"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/html-bruto-wix/page-teatro-cinema.html",
+      "bytes": 404268,
+      "sha256": "0a41cdae7458e0e5593d6e1f313aad53a558fa195ce20d886ae59376fee6e265"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/pages.json",
+      "bytes": 3621,
+      "sha256": "e3327ed4b97286bb4a59cdefd5d4ab275db14b050dec3f71e13514a67ff9105e"
+    },
+    {
+      "path": "03_PAGINAS_E_CONTEUDO_ORIGINAL/text-items.json",
+      "bytes": 82485,
+      "sha256": "5e36e38da4af0d51f65411476bb75815130ca26a7874fc9d6e37ca58403946cf"
+    },
+    {
+      "path": "04_AUDITORIA_E_REPROCESSAMENTO/build_antigravity_package_v2.py",
+      "bytes": 11057,
+      "sha256": "354c8e6de47b2d467cad53a81135d1f2c1e559b7ae942f8a3bef4fc60cdde629"
+    },
+    {
+      "path": "04_AUDITORIA_E_REPROCESSAMENTO/crawl.log",
+      "bytes": 14743,
+      "sha256": "145f2dae45b14202be20ab04932044eef20a4d83438ff83810e5a6c1f37fca08"
+    },
+    {
+      "path": "04_AUDITORIA_E_REPROCESSAMENTO/crawl_site.py",
+      "bytes": 8895,
+      "sha256": "6b678f0dff25f425ee6e6a8278c5e1a54650bfe44a12a1989fccb158ffa78dd5"
+    },
+    {
+      "path": "04_AUDITORIA_E_REPROCESSAMENTO/enrich_inventory.py",
+      "bytes": 3123,
+      "sha256": "81b72f005228d68232d6a398a51163ea92256929d0bb2289ad0334834017f851"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/discografia-01.jpg",
+      "bytes": 45057,
+      "sha256": "d3dac764f5504b3c19f7ab8e4f604a2f84f183c4139ddbb11656223237bbd29a"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-01.jpg",
+      "bytes": 98333,
+      "sha256": "b9b1faea96448bb31d1eef52d7b2e4c310360998814151379e18a708b14e5969"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-02.jpg",
+      "bytes": 33679,
+      "sha256": "a32dcacd616801625d38adf8e3e471215ce4d8db532bd6c2cb0ba92802c87555"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-03.jpg",
+      "bytes": 23623,
+      "sha256": "4e98314ac68afab9c54ef1fdc5f66ac9a07e89f2c19482473303701e92245bb1"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-04.jpg",
+      "bytes": 89678,
+      "sha256": "0096d9957d4d3e753c124efdcd32a680b1cd56326216cdffb980b1cb48f52a9f"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-05.jpg",
+      "bytes": 63746,
+      "sha256": "5b3c9bfd3c569b174131a7679de68aba28cb8f8ed57973fd257ef2e65c697faa"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/galeria-06.jpg",
+      "bytes": 108558,
+      "sha256": "087c51cbedf23ec51896ba61078c8e578cec465c2c2e5ea1926059907c776239"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/hero-nil-lus.jpg",
+      "bytes": 78770,
+      "sha256": "1a470251031790d1a2917ef254134bff24f0859f696bcadc84e4320829e6235b"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/literatura.jpg",
+      "bytes": 74683,
+      "sha256": "ac70f07afdf1d99903797451a9c029fef6bb50f810f0dd10abf9f372dd324a40"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/logo-nil-lus.png",
+      "bytes": 31258,
+      "sha256": "61d88b58ddc498465711689c7a8aeb438c2e93aed16ced5aae991d498c6bdcb9"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/premio-londres.jpg",
+      "bytes": 41908,
+      "sha256": "67cf2fb08240242b2996ea5ef009b7f6b107e018dee00cd3c74108b31de69882"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/assets/teatro.jpg",
+      "bytes": 68162,
+      "sha256": "fe31d89dada4d9b3295dd97cde9bbbc977724afac0b472cda6ee3c99424ac468"
+    },
+    {
+      "path": "05_PROTOTIPO_OPCIONAL_HERMES/index.html",
+      "bytes": 24021,
+      "sha256": "7bd9320a06b8b76dfd5c08e9f75e56471eec526242cbb12d504dddb2344a367d"
+    }
+  ]
+}

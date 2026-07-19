@@ -1,0 +1,609 @@
+export interface Album {
+  title: string;
+  year?: string;
+  image: string;
+  description?: string;
+}
+
+export interface Award {
+  year: string;
+  title: string;
+  description: string;
+  image?: string;
+}
+
+export interface NewsItem {
+  id: string;
+  title: string;
+  source: string;
+  date: string;
+  summary: string;
+  content: string[];
+}
+
+export interface ContactDetails {
+  name: string;
+  address?: string[];
+  phones?: string[];
+  emails: string[];
+  extra?: string[];
+}
+
+export const data = {
+  pt: {
+    meta: {
+      artistName: "Nil Lus",
+      subtitle: "Cantor, Músico, Compositor, Escritor e Poeta",
+      tagline: "Um artista completo. Uma história imersa em arte.",
+    },
+    nav: {
+      about: "Sobre",
+      discography: "Discografia",
+      media: "Vídeo & Música",
+      awards: "Prêmios",
+      literature: "Literatura",
+      handball: "Canhão Handball",
+      gallery: "Galeria",
+      news: "Mídias",
+      contact: "Contato",
+      bookingButton: "Booking e Imprensa",
+    },
+    hero: {
+      greeting: "Nil Lus",
+      heading: "Cantor, músico, compositor e poeta. Um artista completo.",
+      subheading: "Nascido em Belo Horizonte e radicado na Europa desde os anos 90, Nil Lus é um verdadeiro embaixador da musicalidade brasileira e da sensibilidade poética pelo mundo.",
+      ctaListen: "Ouça Nil Lus",
+      ctaBooking: "Booking & Contato",
+      image: "https://static.wixstatic.com/media/e8911b_874520d84a94416bb175e4cb2af49363~mv2.jpg/v1/fill/w_1280,h_1162,al_c,q_85,enc_avif,quality_auto/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f.jpg"
+    },
+    stats: [
+      { value: "17", label: "Discos Gravados", desc: "Entre a Europa e o Brasil" },
+      { value: "+1.000", label: "Composições", desc: "Letras e músicas autorais" },
+      { value: "5", label: "Prêmios Inter.", desc: "França, México, Inglaterra e Chile" },
+      { value: "Grammy", label: "Indicação", desc: "Grammy Latino 2018 com 'Todos os Tons'" },
+    ],
+    about: {
+      heading: "A Trajetória de um Globetrotter",
+      text1: "Nil Lus respira arte desde muito cedo. Aos 10 anos de idade, escreveu seu primeiro livro de poemas e sua primeira canção, intitulada 'Pássaro De Fogo'. Aos 15, foi laureado no 1º Concurso Nacional Fritz Teixeira Salles de Poesia, recebendo distinção honrosa.",
+      text2: "Licenciado em Educação Física pela UFMG e em Administração e Economia pela FUMEC, Nil dividiu sua juventude entre o esporte profissional e o violão. Ex-atleta da Seleção Brasileira de Handball (onde ficou conhecido como 'Canhão' pela força devastadora de seus arremessos), ele trocou as quadras pelos palcos internacionais na década de 90.",
+      text3: "Viajou em concertos por mais de 45 países na América, Europa e Ásia. Em Portugal, fundou o prestigiado projeto de Lusofonia 'Sons da Fala', ao lado de lendas como Sérgio Godinho, Vitorino, e Tito Paris. Elogiado por Toninho Horta como 'um brilhante poeta que toca' e apontado por críticos internacionais como 'The Sting of Brazil', ele segue gravando e escrevendo incansavelmente.",
+      photoCredit: "Foto por Martin Bülow",
+      image: "https://static.wixstatic.com/media/e8911b_3a23125d4f2d46efaf4c77d34a5b3e02~mv2.jpg/v1/crop/x_0,y_3,w_497,h_840/fill/w_495,h_840,al_c,q_85,enc_avif,quality_auto/547a9c9d-1bec-4dcf-8c79-e08ede4e1874.jpg"
+    },
+    discography: {
+      heading: "Discografia Selecionada",
+      subheading: "Uma fusão requintada de world music, ritmos caribenhos, new rock e pop brasileiro autoral.",
+      albums: [
+        { title: "Todos os Tons", year: "2018", image: "https://static.wixstatic.com/media/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg/v1/fill/w_500,h_500,q_90,enc_avif,quality_auto/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg", description: "Álbum indicado ao Grammy Latino. Produzido por Victor Flowers e Celso Rangel." },
+        { title: "Como Caído del Cielo", year: "2020", image: "https://static.wixstatic.com/media/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg/v1/fill/w_250,h_250,q_90,enc_avif,quality_auto/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg", description: "O 15º álbum de carreira. Canções em português e espanhol, com ritmos quentes e românticos." },
+        { title: "Alma Feminina", year: "2017", image: "https://static.wixstatic.com/media/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee~mv2.jpg", description: "Visões líricas, políticas e místicas do universo feminino, inspirando show emblemático." },
+        { title: "Amores Líquidos", year: "2021", image: "https://static.wixstatic.com/media/e8911b_0d821d902d9f4d0fb13345003d470a8e~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_0d821d902d9f4d0fb13345003d470a8e~mv2.jpg", description: "O 18º álbum, explorando a transição das relações contemporâneas." },
+        { title: "Sons da Fala", year: "Portugal", image: "https://static.wixstatic.com/media/e8911b_496ae06f9f6c48a996bd5caa42581d03~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_496ae06f9f6c48a996bd5caa42581d03~mv2.jpg", description: "Projeto de Lusofonia gravado com grandes nomes de Portugal e Cabo Verde." },
+        { title: "Ao Vivo em Montreux", year: "2004", image: "https://static.wixstatic.com/media/e8911b_8b81bee178fb4bb99c95b407d2eecc98~mv2.jpg/v1/fill/w_230,h_230,q_90,enc_avif,quality_auto/e8911b_8b81bee178fb4bb99c95b407d2eecc98~mv2.jpg", description: "Gravado ao vivo para uma audiência de 8.000 pessoas no Montreux Jazz Festival." },
+        { title: "Amal Hamburg", year: "Cinema Score", image: "https://static.wixstatic.com/media/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d~mv2.jpg", description: "Trilha sonora original para o longa-metragem alemão de Hanni Bergesch Wolf." },
+        { title: "Pássaro de Fogo", year: "Clássicos", image: "https://static.wixstatic.com/media/e8911b_e85bc2aaf5184320aff1fd2b1238b313~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_e85bc2aaf5184320aff1fd2b1238b313~mv2.jpg", description: "Compilação de canções marcadas pela poesia profunda e arranjos atemporais." },
+        { title: "Solo & Poesia", year: "Acústico", image: "https://static.wixstatic.com/media/e8911b_ed8ac4860260415986a18b1499ec310f~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_ed8ac4860260415986a18b1499ec310f~mv2.jpg", description: "Sessões acústicas e poemas declamados ao som de violões clássicos." },
+        { title: "World Pop", year: "London Sessions", image: "https://static.wixstatic.com/media/e8911b_f1a9ba58207140af952f46cd58756a58~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_f1a9ba58207140af952f46cd58756a58~mv2.jpg", description: "Gravações que misturam influências britânicas e swing latino." }
+      ]
+    },
+    media: {
+      heading: "Música & Audiovisual",
+      subheading: "Assista ao clipe oficial e ouça faixas que marcaram a carreira internacional do artista.",
+      clipeTitle: "Videoclipe Oficial: A Coroa Sem Rei (2020)",
+      clipeDesc: "Uma poderosa reflexão musical sobre o impacto global da pandemia. Vencedor do prêmio de Melhor Videoclipe (Best Music Video Award) no London Art House Film Festival (LAHFF), Inglaterra.",
+      playerTitle: "Player de Áudio - Coleção Essencial",
+      tracks: [
+        { title: "A Coroa Sem Rei", duration: "4:15", album: "Como Caído del Cielo (2020)" },
+        { title: "Todos os Tons", duration: "3:48", album: "Todos os Tons (2018)" },
+        { title: "Alma Feminina", duration: "5:02", album: "Alma Feminina (2017)" },
+        { title: "Pássaro de Fogo", duration: "3:30", album: "Clássicos Recriados" },
+        { title: "México Bonito Y Amigo", duration: "4:05", album: "Grammy Sessions" }
+      ]
+    },
+    awards: {
+      heading: "Prêmios & Condecorações",
+      subheading: "Reconhecimento institucional e de prestígio artístico em escala internacional.",
+      list: [
+        {
+          year: "2021",
+          title: "Best Music Video Award",
+          description: "Vencedor em Londres com o videoclipe 'A Coroa Sem Rei' no London Art House Film Festival (LAHFF), Inglaterra.",
+          image: "https://static.wixstatic.com/media/e8911b_84a23e955cc64c71825ea5c98581ff0c~mv2.jpg/v1/crop/x_145,y_0,w_1343,h_1096/fill/w_692,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_%20PREMIO%20LONDRES.jpg"
+        },
+        {
+          year: "2020",
+          title: "Nomeado - Best of Brazil European Awards",
+          description: "Indicado no Parlamento de Londres como um dos maiores expoentes da World Music na Diáspora Brasileira na Europa.",
+          image: "https://static.wixstatic.com/media/e8911b_20c1a9977d2e4d208b6c4cffac4bce5b~mv2.jpg/v1/fill/w_560,h_560,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_%20PREMIO%20FINALISTA%20MELHOR%20ARTISTA%20BRASILEIRO%20NA%20EUROPA.jpg"
+        },
+        {
+          year: "2019",
+          title: "Prêmio de Música Mundial (LAHFF)",
+          description: "Laureado no espaço nobre da BBC em Londres pelo festival London Art House Film Festival (LAHFF).",
+          image: "https://static.wixstatic.com/media/e8911b_dbe8523bc1354e5eb8860ef2e04faf6f~mv2.jpg/v1/fill/w_638,h_474,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3_%20PREMIO%20LONDRES%20(4).jpg"
+        },
+        {
+          year: "2018",
+          title: "Indicação ao Grammy Latino",
+          description: "Indicado com o aclamado álbum 'Todos os Tons', produzido com colaboração de Victor Flowers (ex-produtor de Alicia Keys) e Celso Rangel.",
+          image: "https://static.wixstatic.com/media/e8911b_ade545c7b120446c869c4acaaf99076f~mv2.jpg/v1/fill/w_504,h_686,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_%20PREMIO%20INDICA%C3%87%C3%83O%20GRAMMY%20LATINO.jpg"
+        },
+        {
+          year: "2017",
+          title: "Prêmio de Poesia José Maria Heredia",
+          description: "Outorgado pela Prefeitura de Toluca (México) durante Festival Internacional de Literatura e Música.",
+          image: "https://static.wixstatic.com/media/e8911b_a0e61a672a2448919aa43a0e91bf2467~mv2.jpg/v1/fill/w_678,h_488,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sem%20t%C3%ADtulo-1.jpg"
+        },
+        {
+          year: "2016",
+          title: "50 Anos do Montreux Jazz Festival",
+          description: "Convidado de honra de Quincy Jones para se apresentar e representar o Brasil no icônico festival suíço.",
+          image: "https://static.wixstatic.com/media/e8911b_645e408454e844e59c0fd963132d183b~mv2.jpg/v1/fill/w_630,h_416,al_c,lg_1,q_80,enc_avif,quality_auto/6d0141e29f1c40dfffff800affffffef%20(1).jpg"
+        },
+        {
+          year: "2010",
+          title: "Laurea Le Mérite et Dévouement Français",
+          description: "Láurea de Prata do Senado Francês por contribuição excepcional à arte, música e literatura mundiais.",
+          image: "https://static.wixstatic.com/media/e8911b_31a459e27acf4d5fa9df0224c5f5b62a~mv2.jpg/v1/crop/x_0,y_317,w_2158,h_2462/fill/w_560,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LE%20M%C3%A9rite%20et%20D%C3%A9vouementFRAN%C3%87AIS.jpg"
+        },
+        {
+          year: "2008",
+          title: "Nomeação de Cônsul de Poetas del Mundo",
+          description: "Cônsul da prestigiada sociedade mundial de poetas no Chile. Fundador do Instituto Nil Lus, que apoia 350 crianças sob o lema 'Ninguém Separa o Sonho do Sonhador'.",
+          image: "https://static.wixstatic.com/media/e8911b_fb3f6999a788440ab4eca552d8489563f003.jpg/v1/fill/w_480,h_480,q_75,enc_avif,quality_auto/e8911b_fb3f6999a788440ab4eca552d8489563f003.jpg"
+        },
+        {
+          year: "2007",
+          title: "Médaille d`Argent - Paris",
+          description: "Medalha de Prata da Academia Francesa de Ciências, Letras e Cultura, honraria recebida por lendas como Marie Curie, Milton Nascimento e Alcione.",
+          image: "https://static.wixstatic.com/media/e8911b_fb3057aa2ecd4eba9865fe8e6defc297~mv2.jpg/v1/crop/x_7,y_0,w_1946,h_2584/fill/w_576,h_768,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DIPL%C3%94ME%20DE%20M%C3%89DAILLE%20d%E2%80%99ARGENT.jpg"
+        }
+      ]
+    },
+    literature: {
+      heading: "Obra Literária & Poesia",
+      subheading: "Onde a prosa encontra a melodia e as palavras ganham som.",
+      romanceTitle: "A Viagem para o Outro Lado",
+      romanceDesc: "Romance inovador acompanhado de uma trilha sonora instrumental original. Lançado em 2010 e atualmente em sua terceira edição de sucesso no Brasil. Um mergulho esotérico na pós-modernidade.",
+      dadivanteTitle: "Dadivante",
+      dadivanteDesc: "Livro de aforismos profundos e reflexivos estruturado como um calendário de meditações diárias. Enriquecido com fotografias conceituais exclusivas da conceituada fotógrafa alemã Sabine Geilke.",
+      poetosferaTitle: "Poetosfera",
+      poetosferaDesc: "Coletânea poética autoral que transita pelas texturas do amor, da distância, do outono e dos segredos que moram na alma do autor.",
+      homageHeading: "Homenagem: O Baú de Lygia",
+      homageDesc: "Minha singela homenagem à amiga desde os anos 90, com quem me encontrei pela primeira vez em Portugal: a grande dama da literatura brasileira Lygia Fagundes Telles. Gigante, gloriosa, genial e mulher de muitas gerações.",
+      poemLines: [
+        "\"Ah se eu pudesse me arrumar toda por dentro / Tudo caminha nas gavetas\" sem pressa e sem medo",
+        "Ajeitar as coisas, riscar o destino, pintar os cabelos",
+        "E depois varrer do chão as folhas do outono do tempo",
+        "No meu baú ainda guardo amores, mil segredos",
+        "Bem lá no fundo ele está forrado por um espelho",
+        "Onde inocente eu ainda criança vivo e me vejo",
+        "Correndo os campos entre jogos e brinquedos",
+        "Sorrio com lágrimas nos olhos e ainda me lembro",
+        "Releio cartas de amores que partiram em desalento",
+        "Mesmo que tenha sonhado um dia de um outro jeito",
+        "São agora antigos desejos todos fora de mim mesmo",
+        "Um vestido velho, uma boneca, um anel, um chaveiro",
+        "Trapos e livros, retratos mapas, primeiros desenhos",
+        "Tudo é saudade como um carro com faróis traseiros",
+        "Meu coração é um relógio rodando pra trás no peito."
+      ],
+      teatroTitle: "Trilhas Sonoras - Teatro & Cinema",
+      teatroDesc: "Em sua ampla trajetória, Nil Lus compôs composições sonoras para produções de grande peso intelectual.",
+      teatroTracks: [
+        "Tambores Na Noite (Bertolt Brecht)",
+        "Esperando Godot (Samuel Beckett)",
+        "Bella Ciao (Alberto Abreu)",
+        "O Mercado De Escravos (Ana Barradas)",
+        "O Último Dia de Florbela Espanca",
+        "Lux (Maria Clara Machado)",
+        "Ninguém Reparou Na Primavera (Maria Lúcia Godoy)",
+        "King - I Have a Dream (Martin Luther King)"
+      ],
+      cinemaTracks: [
+        "Amal Hamburg (Hanni Bergesch Wolf, Alemanha)",
+        "O Caminho de Volta (Aberto Cabral, Suíça)",
+        "The Quest for Love (Georgi Rossi, Holanda)"
+      ]
+    },
+    handball: {
+      heading: "Canhão Handball: Do Esporte aos Palcos",
+      subheading: "A trajetória ímpar do ex-atleta da Seleção Brasileira de Handball que conquistou os teatros e corações europeus.",
+      desc1: "Destaque nos esportes na década de 1980, Nilton Cruz (seu nome de batismo) fez parte da Seleção Brasileira de Handball entre 1980 e 1985, consagrando-se Campeão Nacional e Sul-Americano.",
+      desc2: "Reconhecido pela força descomunal e precisão de seus arremessos, ganhou o eterno apelido de 'Canhão'. Ele formou-se em Educação Física na UFMG e viajou pelo mundo disputando campeonatos olímpicos e mundiais antes de decidir apostar inteiramente em seu violão nas ruas de Nova York e Berlim.",
+      poemTitle: "Atleta Para Sempre",
+      poemLines: [
+        "Ser atleta é ser poeta",
+        "Com as mãos, braços ou pernas",
+        "A medalha é uma página aberta",
+        "Do livro da sua odisseia",
+        "A vitória e a derrota?! No fundo nada disto importa",
+        "São chaves de ouro ou lata que abrem a mesma porta:",
+        "Da nobreza e a glória que o esporte nos devota",
+        "Da violência nos protege e das drogas nos salva",
+        "A vida é uma bola que segue em frente, rola e rola",
+        "O campeão e o perdedor, é da moeda, a coroa e a cara",
+        "A diferença está é na hora da amizade que Deus nos valha",
+        "Pois os amigos são como casas com o endereço de nossa alma."
+      ],
+      dedication: "“Eu quero dedicar esta canção a todos atletas que descobriram que a mais valiosa das medalhas que carregamos no peito é o valor da amizade que o esporte nos faz todos vitoriosos. Não há perdedor quando se faz um amigo no esporte!”"
+    },
+    gallery: {
+      heading: "Galeria de Arte & Memória",
+      subheading: "Texturas analógicas e momentos marcantes capturados ao redor do globo.",
+      images: [
+        { url: "https://static.wixstatic.com/media/e8911b_11fd7bb96ed246b6b3a032791fcbd687~mv2.jpg/v1/fit/w_576,h_825,q_90,enc_avif,quality_auto/e8911b_11fd7bb96ed246b6b3a032791fcbd687~mv2.jpg", title: "Show Solo" },
+        { url: "https://static.wixstatic.com/media/e8911b_27f69d73cfbe440497f04b3c5c848a52~mv2.jpg/v1/fit/w_718,h_960,q_90,enc_avif,quality_auto/e8911b_27f69d73cfbe440497f04b3c5c848a52~mv2.jpg", title: "Estúdio de Gravação" },
+        { url: "https://static.wixstatic.com/media/e8911b_2836d5d010f545b89f6ceedd2fdc9c86~mv2.jpg/v1/fit/w_960,h_720,q_90,enc_avif,quality_auto/e8911b_2836d5d010f545b89f6ceedd2fdc9c86~mv2.jpg", title: "Encontro Musical" },
+        { url: "https://static.wixstatic.com/media/e8911b_35edb3121c5f484d934839f88b185e8d~mv2.jpg/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/e8911b_35edb3121c5f484d934839f88b185e8d~mv2.jpg", title: "Performance Ao Vivo" },
+        { url: "https://static.wixstatic.com/media/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c~mv2.jpg", title: "Retrato Clássico" },
+        { url: "https://static.wixstatic.com/media/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90~mv2.jpg", title: "Composição Intimista" },
+        { url: "https://static.wixstatic.com/media/e8911b_68251e5aae224a0eb10afa7b5192977e~mv2.jpg/v1/fit/w_960,h_640,q_90,enc_avif,quality_auto/e8911b_68251e5aae224a0eb10afa7b5192977e~mv2.jpg", title: "Sons do Coração" },
+        { url: "https://static.wixstatic.com/media/e8911b_69769915169c4b629890fd09773a4ba9~mv2.jpg/v1/fit/w_960,h_776,q_90,enc_avif,quality_auto/e8911b_69769915169c4b629890fd09773a4ba9~mv2.jpg", title: "Sons da Fala Portugal" }
+      ]
+    },
+    news: {
+      heading: "Matérias & Mídia",
+      subheading: "Artigos, entrevistas e ensaios cobrindo a brilhante estrada de Nil Lus.",
+      items: [
+        {
+          id: "news-1",
+          title: "Das Quadras aos Palcos do Mundo",
+          source: "Super Esportes (03/09/2018)",
+          date: "3 de Setembro de 2018",
+          summary: "Depois de chegar à Seleção Brasileira como jogador de handebol, o mineiro Nilton Cruz seguiu o sonho de ser músico e concorreu ao Grammy Latino.",
+          content: [
+            "Esporte e violão eram as duas paixões de um menino nascido em Belo Horizonte no início da década de 1960. Depois de jogar no Ginástico, Nilton Cruz chegou à Seleção Brasileira de handebol e ficou conhecido como Canhão. O tempo passou e Canhão se tornou Nil Lus, cantor e compositor, e acaba de ser indicado ao Grammy Latino.",
+            "Essa história começa no Bairro Nova Vista, onde nasceu e foi criado com muito orgulho. Desde pequeno, sonhava em tocar piano. Pedia para a mãe, Raimunda Maria da Cruz, conhecida por lá como Lia, para comprar-lhe um. 'Não deu. Dizia que se a gente comprasse um piano, teria de vender a casa. Mas, quando fiz 10 anos, ela me deu um violão usado de presente. Fiquei louco. Quem não tem cão, caça com gato. Assim, o piano ficou esquecido e abracei minha nova paixão', lembra Nilton.",
+            "Nessa mesma época, conheceu o handebol no Colégio Estadual Central – onde o esporte foi jogado pela primeira vez em Minas Gerais, trazido pelas mãos do professor Lincoln Raso, no final da década de 1960.",
+            "Disputando campeonatos pelo Ginástico e pela Seleção Nacional, ele viajou o mundo. Contudo, em uma turnê no Canadá, decidiu ficar nos EUA para buscar seu verdadeiro sonho artístico. Lá, trabalhou como camelô, segurança de clube e eventualmente conseguiu vagas em prestigiados espaços para tocar sua música autoral."
+          ]
+        },
+        {
+          id: "news-2",
+          title: "Show Alma Feminina Abre Turnê Nacional no Teatro Bradesco",
+          source: "Agenda BH",
+          date: "05 de Outubro de 2017",
+          summary: "De volta à sua terra natal, Nil Lus apresenta o show de lançamento do seu 15º disco autoral, homenageando as diversas facetas da força da mulher.",
+          content: [
+            "O músico, poeta e compositor Nil Lus apresenta seu espetáculo 'Alma Feminina', interpretando sua visão artística das mulheres em suas mais diversas facetas históricas, sociais e místicas.",
+            "O show tem direção musical de Celso Rangel e produção técnica de Ricardo Kozlowscky, trazendo participações surpresas ao Teatro Bradesco em Belo Horizonte, antes de seguir em turnê internacional.",
+            "“Abordo todos os aspectos de sua jornada, desde criança, adolescente, fêmea, bruxa, operária, executiva, feminista, amiga, avó... Com carinho especial ao ato mais sagrado de sua existência que é o de ser mãe”, relata o artista."
+          ]
+        },
+        {
+          id: "news-3",
+          title: "Embaixador da Musicalidade Brasileira de Excelência",
+          source: "Brasil Flash TV (01/09/2020)",
+          date: "1 de Setembro de 2020",
+          summary: "Elogiado por músicos e jornalistas internacionais, Nil Lus é consagrado um globetrotter sonoro que transita do Caribe ao new rock londrino.",
+          content: [
+            "Nil Lus é autor de mais de mil canções e já se apresentou em todo o mundo com grande repercussão. Para o crítico americano Johnny Marty, Nil Lus é 'The Sting of Brazil', devido à sua rica fusão jazzística e intelectualidade poética.",
+            "Atualmente, ele se divide entre a conclusão de trilhas sonoras para o cinema europeu e o lançamento de seu novo romance e aforismos, demonstrando um fôlego criativo imbatível."
+          ]
+        }
+      ]
+    },
+    contact: {
+      heading: "Booking, Imprensa & Projetos",
+      subheading: "Entre em contato com os escritórios de assessoria oficial na Suíça e no Reino Unido.",
+      formTitle: "Envie-nos uma Mensagem",
+      formName: "Seu Nome",
+      formEmail: "Seu E-mail",
+      formSubject: "Assunto",
+      formMessage: "Mensagem",
+      formSend: "Enviar Mensagem",
+      formPhone: "Telefone",
+      successMsg: "Obrigado! Sua mensagem foi enviada com sucesso.",
+      errorMsg: "Por favor, preencha todos os campos obrigatórios.",
+      agencies: [
+        {
+          title: "Odaras Productions Sàrl (Suíça)",
+          manager: "Carlos Rodrigues (Case Postale 254, 1820 Montreux)",
+          reg: "Nº CH-550.1.104.734-8",
+          phones: ["+41 21 963 30 66", "+41 79 411 69 54", "+55 21 9658 7474"],
+          emails: ["info@odarasprod.com", "booking@odarasprod.com", "brasil@odarasprod.com"],
+          extra: ["Skype: odarasprod"]
+        },
+        {
+          title: "Diaspora Consultancy Limited (Inglaterra)",
+          address: ["Suite 41, Cresset House", "Retreat Place, London, E9 6RW"],
+          phones: ["John Fayika: +44 7436 863157", "Daniel Lutaaya: +44 7443 355046"],
+          emails: ["fayikatv@gmail.com"]
+        }
+      ]
+    },
+    footer: {
+      copyright: "2026 Nil Lus. Todos os direitos reservados. Landing page desenvolvida em AI Studio.",
+      disclaimer: "Documentos e fotos históricos preservados do site legado Nil Lus (2021)."
+    }
+  },
+  en: {
+    meta: {
+      artistName: "Nil Lus",
+      subtitle: "Singer, Musician, Composer, Writer and Poet",
+      tagline: "A complete artist. A life immersed in art.",
+    },
+    nav: {
+      about: "About",
+      discography: "Discography",
+      media: "Videos & Music",
+      awards: "Awards",
+      literature: "Literature",
+      handball: "Handball Cannon",
+      gallery: "Gallery",
+      news: "Media",
+      contact: "Contact",
+      bookingButton: "Booking & Press",
+    },
+    hero: {
+      greeting: "Nil Lus",
+      heading: "Singer, musician, composer and poet. A complete artist.",
+      subheading: "Born in Belo Horizonte, Brazil, and based in Europe since the 1990s, Nil Lus is a true ambassador of Brazilian music and poetic sensitivity across the globe.",
+      ctaListen: "Listen to Nil Lus",
+      ctaBooking: "Booking & Contact",
+      image: "https://static.wixstatic.com/media/e8911b_874520d84a94416bb175e4cb2af49363~mv2.jpg/v1/fill/w_1280,h_1162,al_c,q_85,enc_avif,quality_auto/416bdfa4-b501-46b4-aa3d-91b1cfc2a40f.jpg"
+    },
+    stats: [
+      { value: "17", label: "Albums Recorded", desc: "Between Europe and Brazil" },
+      { value: "+1,000", label: "Compositions", desc: "Lyrics and original melodies" },
+      { value: "5", label: "Inter. Awards", desc: "France, Mexico, UK, and Chile" },
+      { value: "Grammy", label: "Nomination", desc: "Latin Grammy 2018 for 'Todos os Tons'" },
+    ],
+    about: {
+      heading: "The Journey of a Globetrotter",
+      text1: "Nil Lus breathes art from a very early age. At the age of 10, he wrote his first book of poems and his first song, titled 'Pássaro De Fogo'. At 15, he was awarded an honorary distinction in the 1st Fritz Teixeira Salles National Poetry Contest.",
+      text2: "Graduated in Physical Education from UFMG and in Business Administration and Economics from FUMEC, Nil shared his youth between professional sports and the acoustic guitar. An elite athlete of the Brazilian National Handball Team (where he was nicknamed the 'Handball Cannon' due to his powerful shots), he left the sports court to conquer international stages in the early 90s.",
+      text3: "He toured in concert through more than 45 countries in America, Europe, and Asia. In Portugal, he founded the prestigious Lusofonia project 'Sons da Fala', alongside legends like Sérgio Godinho, Vitorino, and Tito Paris. Praised by Toninho Horta as 'a brilliant poet who plays' and labeled by international critics as 'The Sting of Brazil', he continues recording and writing tirelessly.",
+      photoCredit: "Photo by Martin Bülow",
+      image: "https://static.wixstatic.com/media/e8911b_3a23125d4f2d46efaf4c77d34a5b3e02~mv2.jpg/v1/crop/x_0,y_3,w_497,h_840/fill/w_495,h_840,al_c,q_85,enc_avif,quality_auto/547a9c9d-1bec-4dcf-8c79-e08ede4e1874.jpg"
+    },
+    discography: {
+      heading: "Selected Discography",
+      subheading: "An exquisite fusion of world music, Caribbean beats, London alternative rock, and original Brazilian pop.",
+      albums: [
+        { title: "Todos os Tons", year: "2018", image: "https://static.wixstatic.com/media/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg/v1/fill/w_500,h_500,q_90,enc_avif,quality_auto/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg", description: "Nominated for the Latin Grammy. Produced by Victor Flowers and Celso Rangel." },
+        { title: "Como Caído del Cielo", year: "2020", image: "https://static.wixstatic.com/media/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg/v1/fill/w_250,h_250,q_90,enc_avif,quality_auto/e8911b_dbb8fb4fef824bb68ac16795e0d6ce16~mv2.jpg", description: "The 15th career album. Singing in both Portuguese and Spanish, full of romantic and warm rhythms." },
+        { title: "Alma Feminina", year: "2017", image: "https://static.wixstatic.com/media/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_272c6c9f9c3c4bd0a7e83043732d71ee~mv2.jpg", description: "Lyrical, political, and mystical views of the female soul, inspiring an iconic touring show." },
+        { title: "Amores Líquidos", year: "2021", image: "https://static.wixstatic.com/media/e8911b_0d821d902d9f4d0fb13345003d470a8e~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_0d821d902d9f4d0fb13345003d470a8e~mv2.jpg", description: "His 18th album, exploring the liquid transitions of contemporary human relationships." },
+        { title: "Sons da Fala", year: "Portugal", image: "https://static.wixstatic.com/media/e8911b_496ae06f9f6c48a996bd5caa42581d03~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_496ae06f9f6c48a996bd5caa42581d03~mv2.jpg", description: "Lusofonia collaborative project recorded with top artists from Portugal and Cape Verde." },
+        { title: "Live in Montreux", year: "2004", image: "https://static.wixstatic.com/media/e8911b_8b81bee178fb4bb99c95b407d2eecc98~mv2.jpg/v1/fill/w_230,h_230,q_90,enc_avif,quality_auto/e8911b_8b81bee178fb4bb99c95b407d2eecc98~mv2.jpg", description: "Recorded live in front of a passionate crowd of 8,000 at the Montreux Jazz Festival." },
+        { title: "Amal Hamburg", year: "Cinema Score", image: "https://static.wixstatic.com/media/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_b79a8e3b56c44721bb9cef09b79e6b7d~mv2.jpg", description: "Original movie soundtrack for the award-winning German feature film by Hanni Bergesch Wolf." },
+        { title: "Pássaro de Fogo", year: "Classics", image: "https://static.wixstatic.com/media/e8911b_e85bc2aaf5184320aff1fd2b1238b313~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_e85bc2aaf5184320aff1fd2b1238b313~mv2.jpg", description: "A beautifully curated collection of acoustic ballads and profound poetry." },
+        { title: "Solo & Poesia", year: "Acoustic", image: "https://static.wixstatic.com/media/e8911b_ed8ac4860260415986a18b1499ec310f~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_ed8ac4860260415986a18b1499ec310f~mv2.jpg", description: "Intimate acoustic sessions where spoken word meets classical nylon guitars." },
+        { title: "World Pop", year: "London Sessions", image: "https://static.wixstatic.com/media/e8911b_f1a9ba58207140af952f46cd58756a58~mv2.jpg/v1/fill/w_200,h_200,q_90,enc_avif,quality_auto/e8911b_f1a9ba58207140af952f46cd58756a58~mv2.jpg", description: "Vibrant recordings combining British modern beats and Brazilian tropical warmth." }
+      ]
+    },
+    media: {
+      heading: "Music & Visuals",
+      subheading: "Watch official music videos and stream audio tracks that marked Nil Lus's international path.",
+      clipeTitle: "Official Videoclip: A Coroa Sem Rei (2020)",
+      clipeDesc: "A powerful musical reflection on the global pandemic. Winner of the 'Best Music Video Award' at the London Art House Film Festival (LAHFF), England.",
+      playerTitle: "Audio Player - Essential Collection",
+      tracks: [
+        { title: "A Coroa Sem Rei", duration: "4:15", album: "Como Caído del Cielo (2020)" },
+        { title: "Todos os Tons", duration: "3:48", album: "Todos os Tons (2018)" },
+        { title: "Alma Feminina", duration: "5:02", album: "Alma Feminina (2017)" },
+        { title: "Pássaro de Fogo", duration: "3:30", album: "Recreated Classics" },
+        { title: "México Bonito Y Amigo", duration: "4:05", album: "Grammy Sessions" }
+      ]
+    },
+    awards: {
+      heading: "Awards & Honors",
+      subheading: "An overview of institutional prestige and artistic honors achieved worldwide.",
+      list: [
+        {
+          year: "2021",
+          title: "Best Music Video Award",
+          description: "Winner in London for the official pandemic-themed video 'A Coroa Sem Rei' at the London Art House Film Festival (LAHFF).",
+          image: "https://static.wixstatic.com/media/e8911b_84a23e955cc64c71825ea5c98581ff0c~mv2.jpg/v1/crop/x_145,y_0,w_1343,h_1096/fill/w_692,h_560,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1_%20PREMIO%20LONDRES.jpg"
+        },
+        {
+          year: "2020",
+          title: "Nominee - Best of Brazil European Awards",
+          description: "Nominated in the UK Parliament as one of the best World Music artists in the European Brazilian Diaspora.",
+          image: "https://static.wixstatic.com/media/e8911b_20c1a9977d2e4d208b6c4cffac4bce5b~mv2.jpg/v1/fill/w_560,h_560,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/2_%20PREMIO%20FINALISTA%20MELHOR%20ARTISTA%20BRASILEIRO%20NA%20EUROPA.jpg"
+        },
+        {
+          year: "2019",
+          title: "World Music Award (LAHFF)",
+          description: "Laureated at the prestigious BBC London space as one of the most prolific Brazilian World Music exponents in Europe.",
+          image: "https://static.wixstatic.com/media/e8911b_dbe8523bc1354e5eb8860ef2e04faf6f~mv2.jpg/v1/fill/w_638,h_474,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/3_%20PREMIO%20LONDRES%20(4).jpg"
+        },
+        {
+          year: "2018",
+          title: "Latin Grammy Nomination",
+          description: "Nominated with the acclaimed album 'Todos os Tons', produced with Victor Flowers (former producer of Alicia Keys and Jay Z) and Celso Rangel.",
+          image: "https://static.wixstatic.com/media/e8911b_ade545c7b120446c869c4acaaf99076f~mv2.jpg/v1/fill/w_504,h_686,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/5_%20PREMIO%20INDICA%C3%87%C3%83O%20GRAMMY%20LATINO.jpg"
+        },
+        {
+          year: "2017",
+          title: "José Maria Heredia Poetry Prize",
+          description: "Granted by the Toluca City Hall in Mexico during the International Festival of Literature and Music.",
+          image: "https://static.wixstatic.com/media/e8911b_a0e61a672a2448919aa43a0e91bf2467~mv2.jpg/v1/fill/w_678,h_488,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Sem%20t%C3%ADtulo-1.jpg"
+        },
+        {
+          year: "2016",
+          title: "50th Montreux Jazz Festival Anniversary",
+          description: "Invited officially by honorary director Quincy Jones to perform and represent Brazil's cultural richness.",
+          image: "https://static.wixstatic.com/media/e8911b_645e408454e844e59c0fd963132d183b~mv2.jpg/v1/fill/w_630,h_416,al_c,lg_1,q_80,enc_avif,quality_auto/6d0141e29f1c40dfffff800affffffef%20(1).jpg"
+        },
+        {
+          year: "2010",
+          title: "Le Mérite et Dévouement Français",
+          description: "Awarded by the French Senate for exceptional services and contribution as a global singer, composer, and writer.",
+          image: "https://static.wixstatic.com/media/e8911b_31a459e27acf4d5fa9df0224c5f5b62a~mv2.jpg/v1/crop/x_0,y_317,w_2158,h_2462/fill/w_560,h_640,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/LE%20M%C3%A9rite%20et%20D%C3%A9vouementFRAN%C3%87AIS.jpg"
+        },
+        {
+          year: "2008",
+          title: "Consul of Poetas del Mundo",
+          description: "Named Consul by the International Society of Poets (Chile). Founded the Nil Lus Institute, supporting 350 underrepresented kids under the motto: 'No one separates the dream from the dreamer'.",
+          image: "https://static.wixstatic.com/media/e8911b_fb3f6999a788440ab4eca552d8489563f003.jpg/v1/fill/w_480,h_480,q_75,enc_avif,quality_auto/e8911b_fb3f6999a788440ab4eca552d8489563f003.jpg"
+        },
+        {
+          year: "2007",
+          title: "Médaille d'Argent - Paris",
+          description: "Silver Medal from the French Academy of Sciences, Letters, and Culture in Paris, an award shared with figures such as Marie Curie, Milton Nascimento, and Seu Jorge.",
+          image: "https://static.wixstatic.com/media/e8911b_fb3057aa2ecd4eba9865fe8e6defc297~mv2.jpg/v1/crop/x_7,y_0,w_1946,h_2584/fill/w_576,h_768,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/DIPL%C3%94ME%20DE%20M%C3%89DAILLE%20d%E2%80%99ARGENT.jpg"
+        }
+      ]
+    },
+    literature: {
+      heading: "Literary Works & Poetry",
+      subheading: "Where prose meets melody and written words find their sound.",
+      romanceTitle: "The Voyage to the Other Side (A Viagem para o Outro Lado)",
+      romanceDesc: "A groundbreaking novel accompanied by an original instrumental soundtrack. Released in 2010 and currently in its 3rd successful edition in Brazil. An esoteric and modern narrative.",
+      dadivanteTitle: "Dadivante",
+      dadivanteDesc: "A book of profound reflections and aphorisms structured as a calendar of daily meditations. Enriched with exclusive concept photography by renowned German photographer Sabine Geilke.",
+      poetosferaTitle: "Poetosfera",
+      poetosferaDesc: "A collection of personal poems detailing love, human distance, the passage of autumn, and the secrets residing inside the author's soul.",
+      homageHeading: "Tribute: O Baú de Lygia (Lygia's Chest)",
+      homageDesc: "My sincere tribute to a close friend since the 90s, whom I met at a literary forum in Lisbon: the great dame of Brazilian literature, Lygia Fagundes Telles. Glorious, brilliant, and a woman that represents multiple generations.",
+      poemLines: [
+        "\"Ah, if I could tidy myself up from within / Everything moves in drawers\" slowly and without fear",
+        "Arrange things, scratch destiny, dye my hair",
+        "And then sweep from the floor the autumn leaves of time",
+        "In my chest I still keep loves, a thousand secrets",
+        "At the very bottom, it's lined with a mirror",
+        "Where, innocent as a child, I still live and see myself",
+        "Running through fields between games and toys",
+        "I smile with tears in my eyes and still remember",
+        "I reread letters of loves that departed in despair",
+        "Even if I had dreamed one day in another way",
+        "These are now old desires, all outside of myself",
+        "An old dress, a doll, a ring, a key chain",
+        "Rags and books, portraits, maps, first drawings",
+        "Everything is nostalgia like a car with rear taillights",
+        "My heart is a clock spinning backwards inside my chest."
+      ],
+      teatroTitle: "Soundtracks - Theater & Cinema",
+      teatroDesc: "Throughout his broad career, Nil Lus composed highly acclaimed sound arrangements for deep intellectual plays and international films.",
+      teatroTracks: [
+        "Tambores Na Noite (Bertolt Brecht)",
+        "Esperando Godot (Samuel Beckett)",
+        "Bella Ciao (Alberto Abreu)",
+        "O Mercado De Escravos (Ana Barradas)",
+        "O Último Dia de Florbela Espanca",
+        "Lux (Maria Clara Machado)",
+        "Ninguém Reparou Na Primavera (Maria Lúcia Godoy)",
+        "King - I Have a Dream (Martin Luther King)"
+      ],
+      cinemaTracks: [
+        "Amal Hamburg (Hanni Bergesch Wolf, Germany)",
+        "O Caminho de Volta (Aberto Cabral, Switzerland)",
+        "The Quest for Love (Georgi Rossi, Netherlands)"
+      ]
+    },
+    handball: {
+      heading: "Handball Cannon: From Courts to the Stage",
+      subheading: "The unique journey of an elite athlete who represented Brazil on courts and won European stages.",
+      desc1: "A sports highlight of the 1980s, Nilton Cruz (his birth name) was part of the Brazilian National Handball Team from 1980 to 1985, crowned National and South American Champion.",
+      desc2: "Recognized for the massive power and precision of his shots, he was nicknamed 'Canhão' (Handball Cannon). He studied Physical Education at UFMG and traveled the world representing Brazil before deciding to focus fully on his acoustic guitar on the streets of New York, Portugal, and Germany.",
+      poemTitle: "Athlete Forever (Atleta Para Sempre)",
+      poemLines: [
+        "Being an athlete is being a poet",
+        "With hands, arms, or legs",
+        "A medal is an open page",
+        "From the book of your odyssey",
+        "Victory and defeat?! In the end, none of this matters",
+        "They are keys of gold or brass that open the same door:",
+        "Of nobility and glory that sport devotes to us",
+        "From violence it protects us and from drugs it saves us",
+        "Life is a ball that rolls and rolls straight ahead",
+        "The champion and the loser, are heads and tails of the same coin",
+        "The difference lies in the moment of friendship, God help us",
+        "For friends are like houses carrying the address of our soul."
+      ],
+      dedication: "“I want to dedicate this song to all athletes who discovered that the most valuable of medals we carry on our chests is the value of friendship, which makes us all victorious. There is no loser when you make a friend in sports!”"
+    },
+    gallery: {
+      heading: "Art Gallery & Memory",
+      subheading: "Analog textures and beautiful moments captured across the globe.",
+      images: [
+        { url: "https://static.wixstatic.com/media/e8911b_11fd7bb96ed246b6b3a032791fcbd687~mv2.jpg/v1/fit/w_576,h_825,q_90,enc_avif,quality_auto/e8911b_11fd7bb96ed246b6b3a032791fcbd687~mv2.jpg", title: "Solo Show" },
+        { url: "https://static.wixstatic.com/media/e8911b_27f69d73cfbe440497f04b3c5c848a52~mv2.jpg/v1/fit/w_718,h_960,q_90,enc_avif,quality_auto/e8911b_27f69d73cfbe440497f04b3c5c848a52~mv2.jpg", title: "Recording Studio" },
+        { url: "https://static.wixstatic.com/media/e8911b_2836d5d010f545b89f6ceedd2fdc9c86~mv2.jpg/v1/fit/w_960,h_720,q_90,enc_avif,quality_auto/e8911b_2836d5d010f545b89f6ceedd2fdc9c86~mv2.jpg", title: "Musical Encounter" },
+        { url: "https://static.wixstatic.com/media/e8911b_35edb3121c5f484d934839f88b185e8d~mv2.jpg/v1/fit/w_960,h_722,q_90,enc_avif,quality_auto/e8911b_35edb3121c5f484d934839f88b185e8d~mv2.jpg", title: "Live Performance" },
+        { url: "https://static.wixstatic.com/media/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c~mv2.jpg/v1/fit/w_960,h_960,q_90,enc_avif,quality_auto/e8911b_37564f6cdf5f4a4380ae7f7e0b75da6c~mv2.jpg", title: "Classic Portrait" },
+        { url: "https://static.wixstatic.com/media/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90~mv2.jpg/v1/fit/w_480,h_640,q_90,enc_avif,quality_auto/e8911b_4d83ccddd2fe4ab0b4c592b759aa1e90~mv2.jpg", title: "Intimate Composition" },
+        { url: "https://static.wixstatic.com/media/e8911b_68251e5aae224a0eb10afa7b5192977e~mv2.jpg/v1/fit/w_960,h_640,q_90,enc_avif,quality_auto/e8911b_68251e5aae224a0eb10afa7b5192977e~mv2.jpg", title: "Heart Sounds" },
+        { url: "https://static.wixstatic.com/media/e8911b_69769915169c4b629890fd09773a4ba9~mv2.jpg/v1/fit/w_960,h_776,q_90,enc_avif,quality_auto/e8911b_69769915169c4b629890fd09773a4ba9~mv2.jpg", title: "Lusofonia Portugal" }
+      ]
+    },
+    news: {
+      heading: "Media Coverage & News",
+      subheading: "Articles, interviews, and features reviewing Nil Lus's brilliant international path.",
+      items: [
+        {
+          id: "news-1",
+          title: "From Courts to the Stages of the World",
+          source: "Super Esportes (03/09/2018)",
+          date: "September 3, 2018",
+          summary: "After reaching the Brazilian National handball selection as an elite player, Nilton Cruz pursued his dream of making music and was nominated for the Latin Grammy.",
+          content: [
+            "Sport and the acoustic guitar were the two passions of a boy born in Belo Horizonte in the early 1960s. After playing for Ginástico, Nilton Cruz reached the Brazilian National Team and was known as 'Canhão' (Handball Cannon). Time passed and the athlete became Nil Lus, a prolific singer and songwriter, nominated for the Latin Grammy.",
+            "This story begins in the Nova Vista neighborhood, where he was raised. Since childhood, he wanted to play the piano. His mother Raimunda gave him an old acoustic guitar on his 10th birthday. He learned by training day and night.",
+            "He represented Brazil internationally in pre-olympic and panamerican tournaments. However, during a tournament in Canada, he made the decision to stay in North America to follow his musical call. He eventually caught the attention of a producer who brought him to Europe.",
+            "His career skyrocketed. He went on to release multiple albums, perform twice at the prestigious Montreux Jazz Festival, and travel through America, Asia, and Europe playing in over 45 countries."
+          ]
+        },
+        {
+          id: "news-2",
+          title: "Alma Feminina Show Launches National Tour at Teatro Bradesco",
+          source: "Agenda BH",
+          date: "October 05, 2017",
+          summary: "Back in his hometown, Nil Lus presents a special show for his 15th career album, reflecting on the historical, social, and mystical power of women.",
+          content: [
+            "Poet and songwriter Nil Lus presents his new show 'Alma Feminina', delivering a highly delicate vision of women's historical and political role in society.",
+            "Under the musical direction of Celso Rangel and technical production by Ricardo Kozlowscky, the show opens its national and international tour with special guest stars at Teatro Bradesco in Belo Horizonte.",
+            "“I approach all aspects of her journey, from childhood, adolescence, mother, lover, worker, executive, grandmother... With a sacred focus on the miracle of life,” says Nil."
+          ]
+        },
+        {
+          id: "news-3",
+          title: "Ambassador of Brazilian Music Excellence in Europe",
+          source: "Brasil Flash TV (01/09/2020)",
+          date: "September 1, 2020",
+          summary: "Praised by international critics and colleagues, Nil Lus is recognized as a globetrotter of sounds, fusing Latin grooves with modern British pop.",
+          content: [
+            "Nil Lus is the author of over a thousand songs and has recorded 15 albums between Europe and Brazil. For American critic Johnny Marty, Nil Lus is 'The Sting of Brazil' because of his jazz-infused and literary style.",
+            "He is currently recording a soundtrack for a German feature film and preparing a tetralogy of esoteric thriller books, showing an unstoppable creative energy."
+          ]
+        }
+      ]
+    },
+    contact: {
+      heading: "Booking, Press & Projects",
+      subheading: "Connect with his official management and bookings in Montreux and London.",
+      formTitle: "Send Us a Message",
+      formName: "Your Name",
+      formEmail: "Your Email",
+      formSubject: "Subject",
+      formMessage: "Message",
+      formSend: "Send Message",
+      formPhone: "Phone",
+      successMsg: "Thank you! Your message was sent successfully.",
+      errorMsg: "Please fill out all required fields.",
+      agencies: [
+        {
+          title: "Odaras Productions Sàrl (Switzerland)",
+          manager: "Carlos Rodrigues (Case Postale 254, 1820 Montreux)",
+          reg: "Nº CH-550.1.104.734-8",
+          phones: ["+41 21 963 30 66", "+41 79 411 69 54", "+55 21 9658 7474"],
+          emails: ["info@odarasprod.com", "booking@odarasprod.com", "brasil@odarasprod.com"],
+          extra: ["Skype: odarasprod"]
+        },
+        {
+          title: "Diaspora Consultancy Limited (England)",
+          address: ["Suite 41, Cresset House", "Retreat Place, London, E9 6RW"],
+          phones: ["John Fayika: +44 7436 863157", "Daniel Lutaaya: +44 7443 355046"],
+          emails: ["fayikatv@gmail.com"]
+        }
+      ]
+    },
+    footer: {
+      copyright: "2026 Nil Lus. All rights reserved. Built in Google AI Studio.",
+      disclaimer: "Historical documents and photographs preserved from the legacy Nil Lus (2021) website."
+    }
+  }
+};

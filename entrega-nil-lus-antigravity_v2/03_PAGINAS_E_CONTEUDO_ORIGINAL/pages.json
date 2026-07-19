@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://nillus2021.wixsite.com/website",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-inicio.html",
+    "bytes": 396660,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 32,
+    "text_nodes": 23
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/discografia",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-discografia.html",
+    "bytes": 607538,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 51,
+    "text_nodes": 21
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/m%C3%BAsicas",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-m_sicas.html",
+    "bytes": 412974,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 30,
+    "text_nodes": 21
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/audiovisual",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-audiovisual.html",
+    "bytes": 435979,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 30,
+    "text_nodes": 21
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/not%C3%ADcias",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-not_cias.html",
+    "bytes": 815549,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 40,
+    "text_nodes": 96
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/biografia",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-biografia.html",
+    "bytes": 410059,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 32,
+    "text_nodes": 34
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/galeria",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-galeria.html",
+    "bytes": 659339,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 81,
+    "text_nodes": 21
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/literatura",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-literatura.html",
+    "bytes": 424665,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 52,
+    "text_nodes": 47
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/nilluslcantorlcompositorlpoetalmineiro",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-nilluslcantorlcompositorlpoetalmineiro.html",
+    "bytes": 606434,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 51,
+    "text_nodes": 30
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/teatro-cinema",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-teatro-cinema.html",
+    "bytes": 404268,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 38,
+    "text_nodes": 39
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/canh%C3%A3o-handball",
+    "title": "Canhão Handball | Nil Lus",
+    "html_file": "extraction/page-canh_o-handball.html",
+    "bytes": 430584,
+    "content_type": "text/html",
+    "links": 18,
+    "assets": 60,
+    "text_nodes": 54
+  },
+  {
+    "url": "https://nillus2021.wixsite.com/website/contato",
+    "title": "Nil Lus l Cantor l Compositor l Poeta l Mineiro",
+    "html_file": "extraction/page-contato.html",
+    "bytes": 450476,
+    "content_type": "text/html",
+    "links": 23,
+    "assets": 30,
+    "text_nodes": 64
+  }
+]

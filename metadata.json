@@ -1,0 +1,6 @@
+{
+  "name": "Nil Lus",
+  "description": "Landing page oficial de Nil Lus - cantor, músico, compositor, escritor e poeta brasileiro.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

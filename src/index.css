@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Marck+Script&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-script: "Marck Script", cursive;
+
+  --color-gold: #C99E54;
+  --color-gold-soft: #E4C98E;
+  --color-ink: #111214;
+  --color-ink-raised: #1B1D20;
+  --color-ink-soft: #272A2E;
+  --color-ivory: #F5F0E7;
+  --color-mist: #C9C1B6;
+  --color-wine: #762E38;
+}
+
+@layer utilities {
+  .glass-panel {
+    background-color: rgba(27, 29, 32, 0.65);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+  
+  .glass-panel-light {
+    background-color: rgba(245, 240, 231, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+  }
+
+  .glass-nav {
+    background-color: rgba(17, 18, 20, 0.75);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #111214;
+  color: #F5F0E7;
+  font-family: var(--font-sans);
+}
+
+/* Custom visual styles for a premium touch */
+.editorial-text {
+  line-height: 1.8;
+  letter-spacing: -0.01em;
+}
+
+/* Highlight focus style for accessibility */
+*:focus-visible {
+  outline: 2px solid #C99E54;
+  outline-offset: 4px;
+}
