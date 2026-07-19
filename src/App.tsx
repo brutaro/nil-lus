@@ -85,9 +85,11 @@ export default function App() {
             
             {/* Left: Brand stamp */}
             <div className="text-center md:text-left">
-              <span className="font-serif text-xl font-bold tracking-widest text-ivory block">
-                NIL LUS
-              </span>
+              <img
+                src="./assets/logo-nil-lus.png"
+                alt="Nil Lus"
+                className="h-12 w-auto object-contain mx-auto md:mx-0"
+              />
               <span className="text-[10px] text-mist tracking-widest uppercase block mt-1">
                 {t.meta.subtitle}
               </span>
